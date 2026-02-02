@@ -1,0 +1,42 @@
+# Production compose: use with docker-compose -f docker-compose.yml -f docker-compose.prod.yml up
+# Copy bible-app-backend/.env.production.example to .env.production and set JWT_SECRET, FIREBASE_CREDENTIALS_PATH, POSTGRES_PASSWORD.
+
+version: '3.8'
+
+services:
+  api:
+    env_file:
+      - ./bible-app-backend/.env.production
+    environment:
+      - DATABASE_URL=postgresql://bibleuser:${POSTGRES_PASSWORD:-biblepass}@postgres:5432/bibleapp
+      - MONGODB_URL=mongodb://mongo:27017/bibleapp
+      - REDIS_URL=redis://redis:6379
+      - DEBUG=false
+    restart: always
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    # Remove volume override in prod so code is from image
+    # build: ./bible-app-backend
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      # - "443:443"  # uncomment when SSL certs are in place
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      # - ./certbot/conf:/etc/letsencrypt:ro
+      # - ./certbot/www:/var/www/certbot:ro
+    depends_on:
+      - api
+    restart: always
+
+  postgres:
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-biblepass}
+    restart: always
+
+  mongo:
+    restart: always
+
+  redis:
+    restart: always

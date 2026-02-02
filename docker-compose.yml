@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  api:
+    build: ./bible-app-backend
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    environment:
+      - DATABASE_URL=postgresql://bibleuser:biblepass@postgres:5432/bibleapp
+      - MONGODB_URL=mongodb://mongo:27017/bibleapp
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=dev-secret-change-in-production
+      - DEBUG=true
+    depends_on:
+      - postgres
+      - mongo
+      - redis
+    volumes:
+      - ./bible-app-backend:/app
+    restart: unless-stopped
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: bibleuser
+      POSTGRES_PASSWORD: biblepass
+      POSTGRES_DB: bibleapp
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  mongo_data:
+  redis_data:

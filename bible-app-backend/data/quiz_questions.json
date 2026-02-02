@@ -1,0 +1,92 @@
+[
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros tem a Biblia?",
+    "correct_answer": "66",
+    "wrong_answers": ["27", "39", "73"],
+    "explanation": "A Biblia tem 66 livros: 39 no Antigo Testamento e 27 no Novo.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o primeiro livro da Biblia?",
+    "correct_answer": "Genesis",
+    "wrong_answers": ["Exodo", "Joao", "Mateus"],
+    "explanation": "Genesis e o primeiro livro da Biblia e relata a criacao.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem construiu a arca?",
+    "correct_answer": "Noe",
+    "wrong_answers": ["Abraao", "Moisés", "Josue"],
+    "explanation": "Noe construiu a arca por ordem de Deus antes do diluvio.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual discipulo negou Jesus tres vezes?",
+    "correct_answer": "Pedro",
+    "wrong_answers": ["Joao", "Judas", "Tomas"],
+    "explanation": "Pedro negou Jesus tres vezes antes do galo cantar.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus nasceu?",
+    "correct_answer": "Belem",
+    "wrong_answers": ["Nazare", "Jerusalem", "Galileia"],
+    "explanation": "Jesus nasceu em Belem da Judeia, conforme profetizado.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos dias e noites Noe ficou na arca com a chuva?",
+    "correct_answer": "40",
+    "wrong_answers": ["7", "150", "12"],
+    "explanation": "Choveu 40 dias e 40 noites; depois as aguas permaneceram por mais tempo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual rei pediu a cabeca de Joao Batista?",
+    "correct_answer": "Herodes",
+    "wrong_answers": ["Pilatos", "Cesar", "Nero"],
+    "explanation": "Herodes Antipas mandou decapitar Joao Batista a pedido de Herodias.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros tem o Novo Testamento?",
+    "correct_answer": "27",
+    "wrong_answers": ["39", "66", "22"],
+    "explanation": "O Novo Testamento tem 27 livros: evangelhos, Atos, cartas e Apocalipse.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta foi levado ao ceu em um carro de fogo?",
+    "correct_answer": "Elias",
+    "wrong_answers": ["Enoque", "Ezequiel", "Eliseu"],
+    "explanation": "Elias foi levado ao ceu em um redemoinho com carro e cavalos de fogo.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Em qual livro da Biblia aparece a frase 'No principio era o Verbo'?",
+    "correct_answer": "Joao",
+    "wrong_answers": ["Genesis", "Hebreus", "1 Joao"],
+    "explanation": "O evangelho de Joao comeca com 'No principio era o Verbo' (Jo 1:1).",
+    "category": "novo_testamento"
+  }
+]

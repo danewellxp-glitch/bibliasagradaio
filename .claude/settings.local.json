@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version:*)",
+      "Bash(if not exist \"C:\\\\Users\\\\danew\\\\Documents\\\\bibliasagradaio\\\\bible-app-mobile\\\\lib\\\\core\\\\constants\" mkdir \"C:\\\\Users\\\\danew\\\\Documents\\\\bibliasagradaio\\\\bible-app-mobile\\\\lib\\\\core\\\\constants\")"
+    ]
+  }
+}
