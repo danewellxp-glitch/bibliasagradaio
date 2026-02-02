@@ -56,7 +56,7 @@ class SettingsModel {
         theme: json['theme'] as String? ?? 'light',
         showVerseNumbers: json['showVerseNumbers'] as bool? ?? true,
         showRedLetters: json['showRedLetters'] as bool? ?? true,
-        defaultVersion: json['defaultVersion'] as String? ?? 'ARA',
+        defaultVersion: json['defaultVersion'] as String? ?? 'NVI',
         language: json['language'] as String? ?? 'pt-BR',
       );
 

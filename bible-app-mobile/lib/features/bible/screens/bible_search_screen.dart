@@ -153,7 +153,7 @@ class _BibleSearchScreenState extends ConsumerState<BibleSearchScreen> {
       builder: (_) => ListView(
         shrinkWrap: true,
         children: [
-          for (final v in ['ARA', 'ARC', 'ACF', 'KJV'])
+          for (final v in ['NVI', 'ARC', 'ACF', 'KJV'])
             ListTile(
               title: Text(v),
               trailing: ref.read(selectedVersionProvider) == v

@@ -24,7 +24,7 @@ final versionsProvider = FutureProvider<List<BibleVersion>>((ref) {
   return ref.read(offlineBibleRepositoryProvider).getVersions();
 });
 
-final selectedVersionProvider = StateProvider<String>((ref) => 'ARA');
+final selectedVersionProvider = StateProvider<String>((ref) => 'NVI');
 final selectedBookProvider = StateProvider<int>((ref) => 1);
 final selectedChapterProvider = StateProvider<int>((ref) => 1);
 

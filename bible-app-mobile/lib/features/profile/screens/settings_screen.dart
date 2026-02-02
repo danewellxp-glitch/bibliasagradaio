@@ -79,7 +79,7 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
                 value: settings.defaultVersion,
                 decoration: const InputDecoration(labelText: 'Versao padrao'),
                 items: const [
-                  DropdownMenuItem(value: 'ARA', child: Text('ARA')),
+                  DropdownMenuItem(value: 'NVI', child: Text('NVI')),
                   DropdownMenuItem(value: 'ARC', child: Text('ARC')),
                   DropdownMenuItem(value: 'ACF', child: Text('ACF')),
                   DropdownMenuItem(value: 'KJV', child: Text('KJV')),
