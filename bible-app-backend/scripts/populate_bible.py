@@ -31,7 +31,7 @@ from app.models import *  # noqa: F401, F403
 from app.models.bible import BibleText, BibleVersion
 
 BIBLE_VERSIONS = [
-    {"code": "ARA", "name": "Almeida Revista e Atualizada", "language": "pt-BR"},
+    {"code": "NVI", "name": "Nova Versão Internacional", "language": "pt-BR"},
     {"code": "ARC", "name": "Almeida Revista e Corrigida", "language": "pt-BR"},
     {"code": "ACF", "name": "Almeida Corrigida e Fiel", "language": "pt-BR"},
     {"code": "KJV", "name": "King James Version", "language": "en-US"},
