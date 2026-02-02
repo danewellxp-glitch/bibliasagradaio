@@ -1,0 +1,6 @@
+# Copy this file to local.properties and set YOUR paths.
+# Windows: use double backslash (e.g. C:\\Users\\...)
+# Or run "flutter pub get" in bible-app-mobile/ to generate local.properties automatically.
+
+sdk.dir=C:\\Users\\YOUR_USER\\AppData\\Local\\Android\\sdk
+flutter.sdk=C:\\Users\\YOUR_USER\\src\\flutter

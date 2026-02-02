@@ -9,6 +9,28 @@
 
 **Importante:** O app Flutter fica em `bible-app-mobile/`. A raiz do repo contém também o backend e outros arquivos.
 
+### Erro: "flutter.sdk not set in local.properties"
+
+Se o projeto foi clonado (ex.: em `StudioProjects`) ou aberto sem rodar Flutter antes, o arquivo `android/local.properties` não existe (ele é gerado pelo Flutter e está no `.gitignore`).
+
+**Solução 1 (recomendada):** No terminal, na pasta **bible-app-mobile**:
+
+```powershell
+cd C:\Users\danew\StudioProjects\bibliasagradaio\bible-app-mobile
+flutter pub get
+```
+
+Isso gera `android/local.properties` com `flutter.sdk` e `sdk.dir`. Depois, sincronize o Gradle no Android Studio (File → Sync Project with Gradle Files).
+
+**Solução 2:** Crie manualmente o arquivo `bible-app-mobile/android/local.properties` com (ajuste os caminhos para o seu PC):
+
+```properties
+sdk.dir=C:\\Users\\danew\\AppData\\Local\\Android\\sdk
+flutter.sdk=C:\\Users\\danew\\src\\flutter
+```
+
+No Windows use **barras duplas** (`\\`). Você pode copiar de `android/local.properties.example` e trocar `YOUR_USER` pelo seu usuário.
+
 ---
 
 ## 2. Firebase (só na sua máquina)
