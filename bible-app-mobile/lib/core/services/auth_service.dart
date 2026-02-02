@@ -2,11 +2,16 @@ import 'package:dio/dio.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fb;
 import 'package:google_sign_in/google_sign_in.dart';
 
+import '../constants/firebase_config.dart';
 import 'api_service.dart';
 
 class AuthService {
   final fb.FirebaseAuth _firebaseAuth = fb.FirebaseAuth.instance;
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
+  final GoogleSignIn _googleSignIn = GoogleSignIn(
+    serverClientId: kGoogleSignInWebClientId.contains('COLE_AQUI')
+        ? null
+        : kGoogleSignInWebClientId,
+  );
   final ApiService _api;
 
   AuthService(this._api);

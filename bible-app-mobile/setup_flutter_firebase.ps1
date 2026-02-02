@@ -82,5 +82,10 @@ if (Test-Path $appBuildKts) {
 Write-Host "`n[4/4] Executando flutter pub get..." -ForegroundColor Green
 flutter pub get
 
+# 7. Lembrete SHA-1 para Google Sign-In
 Write-Host "`n=== Setup concluido! ===" -ForegroundColor Cyan
 Write-Host "Para rodar o app: flutter run" -ForegroundColor Yellow
+Write-Host "`nSe for usar Login com Google, adicione o SHA-1 no Firebase:" -ForegroundColor Yellow
+Write-Host "  keytool -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore" -ForegroundColor Gray
+Write-Host "  (senha: android). Copie o SHA1 e adicione em Firebase Console > Configuracoes > Seu app Android." -ForegroundColor Gray
+Write-Host "  Ou: cd bible-app-mobile\android; .\gradlew signingReport (requer Java 11+). Veja SETUP-FIREBASE.md." -ForegroundColor Gray
