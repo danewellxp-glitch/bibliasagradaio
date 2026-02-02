@@ -26,6 +26,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sqlalchemy.orm import Session
 
 from app.core.database import Base, SessionLocal, engine
+# Import all models so tables are created in correct order
+from app.models import *  # noqa: F401, F403
 from app.models.bible import BibleText, BibleVersion
 
 BIBLE_VERSIONS = [

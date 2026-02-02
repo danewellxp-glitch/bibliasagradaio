@@ -29,7 +29,7 @@ services:
       POSTGRES_PASSWORD: biblepass
       POSTGRES_DB: bibleapp
     ports:
-      - "5432:5432"
+      - "5433:5432"  # porta local 5433 para evitar conflito
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped
