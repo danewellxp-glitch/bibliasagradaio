@@ -10,7 +10,7 @@ import 'ask_ai_dialog.dart';
 class VerseStudySheet extends ConsumerWidget {
   final Verse verse;
 
-  const VerseStudySheet({super.key, required this.verse});
+  const VerseStudySheet({super.key, required this.verse}) : scrollController = null;
 
   static void show(BuildContext context, Verse verse) {
     showModalBottomSheet(
