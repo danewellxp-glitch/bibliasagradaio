@@ -1,13 +1,18 @@
 import 'package:dio/dio.dart';
 
 class ApiService {
+  static const String _defaultBaseUrl = String.fromEnvironment(
+    'API_BASE_URL',
+    defaultValue: 'http://10.0.2.2:8000',
+  );
+
   late final Dio _dio;
 
   ApiService({String? baseUrl}) {
     _dio = Dio(BaseOptions(
-      baseUrl: baseUrl ?? 'http://10.0.2.2:8000/api/v1',
-      connectTimeout: const Duration(seconds: 10),
-      receiveTimeout: const Duration(seconds: 10),
+      baseUrl: '${baseUrl ?? _defaultBaseUrl}/api/v1',
+      connectTimeout: const Duration(seconds: 20),
+      receiveTimeout: const Duration(seconds: 20),
       headers: {'Content-Type': 'application/json'},
     ));
     _dio.interceptors.add(InterceptorsWrapper(

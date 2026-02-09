@@ -11,6 +11,10 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str = "HS256"
     JWT_EXPIRATION_MINUTES: int = 60 * 24 * 7
     FIREBASE_CREDENTIALS_PATH: str = "serviceAccountKey.json"
+    OLLAMA_URL: str = "http://localhost:11434"
+    OLLAMA_MODEL: str = "qwen2.5:7b"
+    AI_RATE_LIMIT_FREE: int = 3
+    AI_RATE_LIMIT_PREMIUM: int = 100
 
     class Config:
         env_file = ".env"

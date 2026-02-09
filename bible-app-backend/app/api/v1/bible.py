@@ -13,6 +13,18 @@ from app.services.bible_service import BibleService
 router = APIRouter(prefix="/bible", tags=["bible"])
 
 
+@router.get("/verse-of-the-day", response_model=VerseResponse)
+async def get_verse_of_the_day(
+    version: str = "NVI",
+    db: Session = Depends(get_db),
+):
+    service = BibleService(db)
+    result = service.get_verse_of_the_day(version)
+    if not result:
+        raise HTTPException(status_code=404, detail="Verse not found")
+    return VerseResponse.model_validate(result)
+
+
 @router.get("/versions", response_model=list[BibleVersionResponse])
 async def get_versions(db: Session = Depends(get_db)):
     service = BibleService(db)

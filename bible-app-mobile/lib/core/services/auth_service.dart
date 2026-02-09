@@ -47,6 +47,27 @@ class AuthService {
     return jwt;
   }
 
+  /// Call after app start when user is already logged in (Firebase persistence).
+  /// Fetches a new JWT from the backend so API calls (highlights, stats, etc.) work.
+  Future<void> ensureBackendToken() async {
+    final user = _firebaseAuth.currentUser;
+    if (user == null) return;
+    try {
+      final idToken = await user.getIdToken();
+      if (idToken == null) return;
+      final response = await _api.post(
+        '/auth/login',
+        options: Options(
+          headers: {'Authorization': 'Bearer $idToken'},
+        ),
+      );
+      final jwt = response.data['access_token'] as String?;
+      if (jwt != null) _api.setToken(jwt);
+    } catch (_) {
+      // Offline or backend down; token may still be valid from last session
+    }
+  }
+
   Future<void> signOut() async {
     _api.clearToken();
     await _googleSignIn.signOut();

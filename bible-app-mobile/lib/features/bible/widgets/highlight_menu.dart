@@ -8,6 +8,7 @@ class HighlightMenu extends StatelessWidget {
   final VoidCallback onAnnotate;
   final VoidCallback onBookmark;
   final VoidCallback onShare;
+  final VoidCallback onStudy;
   final void Function(String color) onHighlight;
   final VoidCallback? onRemoveHighlight;
 
@@ -17,6 +18,7 @@ class HighlightMenu extends StatelessWidget {
     required this.onAnnotate,
     required this.onBookmark,
     required this.onShare,
+    required this.onStudy,
     required this.onHighlight,
     this.onRemoveHighlight,
   });
@@ -105,6 +107,11 @@ class HighlightMenu extends StatelessWidget {
                 icon: Icons.share,
                 label: 'Compartilhar',
                 onTap: onShare,
+              ),
+              _ActionButton(
+                icon: Icons.school,
+                label: 'Estudar',
+                onTap: onStudy,
               ),
             ],
           ),

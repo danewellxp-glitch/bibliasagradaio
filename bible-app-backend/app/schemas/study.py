@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class CommentaryResponse(BaseModel):
@@ -55,3 +55,61 @@ class BibleMapResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class LexiconEntryResponse(BaseModel):
+    id: int
+    strong_number: str
+    language: str
+    original_word: str | None
+    transliteration: str | None
+    pronunciation: str | None
+    basic_meaning: str | None
+    extended_definition: str | None
+    usage_count: int | None
+    first_occurrence: str | None
+
+    class Config:
+        from_attributes = True
+
+
+class WordOccurrenceResponse(BaseModel):
+    id: int
+    lexicon_entry_id: int
+    book_number: int
+    chapter: int
+    verse: int
+    word_position: int | None
+    word_in_verse: str | None
+
+    class Config:
+        from_attributes = True
+
+
+class LexiconDetailResponse(BaseModel):
+    entry: LexiconEntryResponse
+    occurrences: list[WordOccurrenceResponse]
+
+
+class VerseContextResponse(BaseModel):
+    version: str
+    book: int
+    chapter: int
+    verse: int
+    commentaries: list[CommentaryResponse]
+    cross_references: list[CrossReferenceResponse]
+    timeline_events: list[TimelineEventResponse]
+
+
+class VerseAskRequest(BaseModel):
+    version: str
+    book: int = Field(..., ge=1, le=66)
+    chapter: int = Field(..., ge=1)
+    verse: int = Field(..., ge=1)
+    question: str = Field(..., min_length=3, max_length=500)
+
+
+class VerseAskResponse(BaseModel):
+    answer: str
+    from_cache: bool
+    remaining_questions: int

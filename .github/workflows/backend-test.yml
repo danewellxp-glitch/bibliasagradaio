@@ -1,0 +1,62 @@
+name: Backend Tests
+
+on:
+  push:
+    paths:
+      - 'bible-app-backend/**'
+  pull_request:
+    paths:
+      - 'bible-app-backend/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: bibleuser
+          POSTGRES_PASSWORD: biblepass
+          POSTGRES_DB: bibleapp_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+      redis:
+        image: redis:7
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      DATABASE_URL: postgresql://bibleuser:biblepass@localhost:5432/bibleapp_test
+      REDIS_URL: redis://localhost:6379
+      JWT_SECRET: test-secret-key-ci
+      MONGODB_URL: mongodb://localhost:27017/bibleapp_test
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        working-directory: bible-app-backend
+        run: |
+          pip install -r requirements.txt
+          pip install pytest httpx
+
+      - name: Run tests
+        working-directory: bible-app-backend
+        run: pytest tests/ -v --tb=short

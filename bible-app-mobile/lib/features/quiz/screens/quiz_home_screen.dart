@@ -18,7 +18,7 @@ class QuizHomeScreen extends ConsumerWidget {
         actions: [
           IconButton(
             icon: const Icon(Icons.leaderboard),
-            onPressed: () => context.push('/quiz/leaderboard'),
+            onPressed: () => context.push('/games/leaderboard'),
           ),
         ],
       ),
@@ -50,7 +50,7 @@ class QuizHomeScreen extends ConsumerWidget {
             ),
             const SizedBox(height: 32),
             ElevatedButton.icon(
-              onPressed: () => context.push('/quiz/play'),
+              onPressed: () => context.push('/games/quiz-solo/play'),
               icon: const Icon(Icons.play_arrow, size: 32),
               label: const Text('Iniciar Quiz', style: TextStyle(fontSize: 20)),
               style: ElevatedButton.styleFrom(

@@ -5,11 +5,25 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.v1.auth import router as auth_router
 from app.api.v1.bible import router as bible_router
+from app.api.v1.games import router as games_router
+from app.api.v1.premium import router as premium_router
 from app.api.v1.profile import router as profile_router
 from app.api.v1.quiz import router as quiz_router
 from app.api.v1.study import router as study_router
 from app.api.v1.user_content import router as user_content_router
 from app.core.config import settings
+from app.core.database import Base, engine
+
+# Import all models so Base.metadata knows about them
+import app.models.bible  # noqa: F401
+import app.models.game  # noqa: F401
+import app.models.quiz  # noqa: F401
+import app.models.study  # noqa: F401
+import app.models.subscription  # noqa: F401
+import app.models.user  # noqa: F401
+
+# Auto-create tables that don't exist yet
+Base.metadata.create_all(bind=engine)
 
 # Firebase Admin SDK init (required for auth/login verify_id_token)
 try:
@@ -42,5 +56,7 @@ app.include_router(auth_router, prefix="/api/v1")
 app.include_router(bible_router, prefix="/api/v1")
 app.include_router(study_router, prefix="/api/v1")
 app.include_router(quiz_router, prefix="/api/v1")
+app.include_router(games_router, prefix="/api/v1")
+app.include_router(premium_router, prefix="/api/v1")
 app.include_router(profile_router, prefix="/api/v1")
 app.include_router(user_content_router, prefix="/api/v1")

@@ -62,3 +62,24 @@ class StudyService:
         if period:
             q = q.filter(BibleMap.period == period)
         return q.limit(limit).all()
+
+    def get_verse_context(
+        self,
+        book_number: int,
+        chapter: int,
+        verse: int,
+    ) -> dict:
+        commentaries = self.get_commentaries(book_number, chapter, verse, limit=10)
+        cross_refs = self.get_cross_references(book_number, chapter, verse, limit=20)
+        timeline = (
+            self.db.query(TimelineEvent)
+            .filter(TimelineEvent.related_books.contains([book_number]))
+            .order_by(TimelineEvent.date_start.asc().nulls_last())
+            .limit(10)
+            .all()
+        )
+        return {
+            "commentaries": commentaries,
+            "cross_references": cross_refs,
+            "timeline_events": timeline,
+        }

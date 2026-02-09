@@ -4,8 +4,12 @@
     "question_type": "multiple_choice",
     "question_text": "Quantos livros tem a Biblia?",
     "correct_answer": "66",
-    "wrong_answers": ["27", "39", "73"],
-    "explanation": "A Biblia tem 66 livros: 39 no Antigo Testamento e 27 no Novo.",
+    "wrong_answers": [
+      "27",
+      "39",
+      "73"
+    ],
+    "explanation": "66 livros: 39 AT e 27 NT.",
     "category": "geral"
   },
   {
@@ -13,8 +17,181 @@
     "question_type": "multiple_choice",
     "question_text": "Qual o primeiro livro da Biblia?",
     "correct_answer": "Genesis",
-    "wrong_answers": ["Exodo", "Joao", "Mateus"],
-    "explanation": "Genesis e o primeiro livro da Biblia e relata a criacao.",
+    "wrong_answers": [
+      "Exodo",
+      "Joao",
+      "Mateus"
+    ],
+    "explanation": "Genesis relata a criacao.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o ultimo livro da Biblia?",
+    "correct_answer": "Apocalipse",
+    "wrong_answers": [
+      "Joao",
+      "Judas",
+      "Malaquias"
+    ],
+    "explanation": "Apocalipse encerra o NT.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros tem o Antigo Testamento?",
+    "correct_answer": "39",
+    "wrong_answers": [
+      "27",
+      "66",
+      "22"
+    ],
+    "explanation": "O AT tem 39 livros.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros tem o Novo Testamento?",
+    "correct_answer": "27",
+    "wrong_answers": [
+      "39",
+      "66",
+      "22"
+    ],
+    "explanation": "O NT tem 27 livros.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem escreveu a maior parte do NT?",
+    "correct_answer": "Paulo",
+    "wrong_answers": [
+      "Pedro",
+      "Joao",
+      "Mateus"
+    ],
+    "explanation": "Paulo escreveu 13 cartas.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos evangelhos existem?",
+    "correct_answer": "4",
+    "wrong_answers": [
+      "3",
+      "5",
+      "12"
+    ],
+    "explanation": "Mateus, Marcos, Lucas e Joao.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o livro mais curto da Biblia?",
+    "correct_answer": "2 Joao",
+    "wrong_answers": [
+      "Joao",
+      "Judas",
+      "Obadias"
+    ],
+    "explanation": "2 Joao tem poucos versiculos.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o livro mais longo da Biblia?",
+    "correct_answer": "Salmos",
+    "wrong_answers": [
+      "Genesis",
+      "Isaias",
+      "Ezequiel"
+    ],
+    "explanation": "Salmos tem 150 capitulos.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Em quantas linguas foi escrita a Biblia?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "1",
+      "2",
+      "5"
+    ],
+    "explanation": "Hebraico, aramaico e grego.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o versiculo central da Biblia?",
+    "correct_answer": "Sl 118:8",
+    "wrong_answers": [
+      "Jo 3:16",
+      "Gn 1:1",
+      "Rm 8:28"
+    ],
+    "explanation": "Sl 118:8 e o versiculo central.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa 'testamento' na Biblia?",
+    "correct_answer": "Alianca",
+    "wrong_answers": [
+      "Livro",
+      "Historia",
+      "Contrato"
+    ],
+    "explanation": "Testamento significa alianca ou pacto.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos capitulos tem a Biblia?",
+    "correct_answer": "1189",
+    "wrong_answers": [
+      "1000",
+      "1500",
+      "666"
+    ],
+    "explanation": "A Biblia tem 1189 capitulos.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro nao menciona Deus?",
+    "correct_answer": "Ester",
+    "wrong_answers": [
+      "Rute",
+      "Cantares",
+      "Eclesiastes"
+    ],
+    "explanation": "Ester nao cita o nome Deus.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala da criacao?",
+    "correct_answer": "Genesis",
+    "wrong_answers": [
+      "Exodo",
+      "Joao",
+      "Hebreus"
+    ],
+    "explanation": "Genesis 1 descreve a criacao.",
     "category": "geral"
   },
   {
@@ -22,8 +199,181 @@
     "question_type": "multiple_choice",
     "question_text": "Quem construiu a arca?",
     "correct_answer": "Noe",
-    "wrong_answers": ["Abraao", "Moisés", "Josue"],
-    "explanation": "Noe construiu a arca por ordem de Deus antes do diluvio.",
+    "wrong_answers": [
+      "Abraao",
+      "Moisés",
+      "Josue"
+    ],
+    "explanation": "Noe construiu a arca por ordem de Deus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi vendido pelos irmaos ao Egito?",
+    "correct_answer": "Jose",
+    "wrong_answers": [
+      "Benjamin",
+      "Isaque",
+      "Jacó"
+    ],
+    "explanation": "Jose foi vendido pelos irmaos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem conduziu Israel pelo Mar Vermelho?",
+    "correct_answer": "Moisés",
+    "wrong_answers": [
+      "Josue",
+      "Aarão",
+      "Calebe"
+    ],
+    "explanation": "Moisés estendeu a mao sobre o mar.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem derrubou os muros de Jerico?",
+    "correct_answer": "Josue",
+    "wrong_answers": [
+      "Calebe",
+      "Moisés",
+      "Gideao"
+    ],
+    "explanation": "Os muros caíram ao soar das trombetas.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem matou Golias?",
+    "correct_answer": "Davi",
+    "wrong_answers": [
+      "Sauel",
+      "Absalao",
+      "Joabe"
+    ],
+    "explanation": "Davi derrotou Golias com uma funda.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem construiu o primeiro templo?",
+    "correct_answer": "Salomao",
+    "wrong_answers": [
+      "Davi",
+      "Neemias",
+      "Zorobabel"
+    ],
+    "explanation": "Salomao construiu o templo em Jerusalém.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi engolido por um grande peixe?",
+    "correct_answer": "Jonas",
+    "wrong_answers": [
+      "Pedro",
+      "Paulo",
+      "Noe"
+    ],
+    "explanation": "Jonas ficou tres dias no peixe.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi lançado na cova dos leoes?",
+    "correct_answer": "Daniel",
+    "wrong_answers": [
+      "Sadraque",
+      "Mesaque",
+      "Abede-Nego"
+    ],
+    "explanation": "Daniel foi salvo pelos anjos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi a primeira mulher?",
+    "correct_answer": "Eva",
+    "wrong_answers": [
+      "Sara",
+      "Rebeca",
+      "Raquel"
+    ],
+    "explanation": "Eva foi criada da costela de Adao.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o pai da fe?",
+    "correct_answer": "Abraao",
+    "wrong_answers": [
+      "Isaque",
+      "Jacó",
+      "Noe"
+    ],
+    "explanation": "Abraao e chamado pai da fe.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem lutou com o anjo e recebeu o nome Israel?",
+    "correct_answer": "Jacó",
+    "wrong_answers": [
+      "Esau",
+      "Isaque",
+      "Abraao"
+    ],
+    "explanation": "Jacó lutou em Peniel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi rei de Israel e cometeu adulterio?",
+    "correct_answer": "Davi",
+    "wrong_answers": [
+      "Salomao",
+      "Sauel",
+      "Acabe"
+    ],
+    "explanation": "Davi cometeu adulterio com Bateseba.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem pediu a cabeca de Joao Batista?",
+    "correct_answer": "Herodes",
+    "wrong_answers": [
+      "Pilatos",
+      "Cesar",
+      "Nero"
+    ],
+    "explanation": "Herodes Antipas a pedido de Herodias.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus nasceu?",
+    "correct_answer": "Belem",
+    "wrong_answers": [
+      "Nazare",
+      "Jerusalem",
+      "Galileia"
+    ],
+    "explanation": "Jesus nasceu em Belem da Judeia.",
     "category": "historia"
   },
   {
@@ -31,17 +381,805 @@
     "question_type": "multiple_choice",
     "question_text": "Qual discipulo negou Jesus tres vezes?",
     "correct_answer": "Pedro",
-    "wrong_answers": ["Joao", "Judas", "Tomas"],
-    "explanation": "Pedro negou Jesus tres vezes antes do galo cantar.",
+    "wrong_answers": [
+      "Joao",
+      "Judas",
+      "Tomas"
+    ],
+    "explanation": "Pedro negou antes do galo cantar.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem traiu Jesus?",
+    "correct_answer": "Judas",
+    "wrong_answers": [
+      "Pedro",
+      "Pilatos",
+      "Caifas"
+    ],
+    "explanation": "Judas Iscariotes o traiu com um beijo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o primeiro martir cristao?",
+    "correct_answer": "Estevao",
+    "wrong_answers": [
+      "Pedro",
+      "Paulo",
+      "Tiago"
+    ],
+    "explanation": "Estevao foi apedrejado.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi cego na estrada de Damasco?",
+    "correct_answer": "Paulo",
+    "wrong_answers": [
+      "Pedro",
+      "Ananias",
+      "Barnabe"
+    ],
+    "explanation": "Paulo (Sauel) foi convertido.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem era a mae de Jesus?",
+    "correct_answer": "Maria",
+    "wrong_answers": [
+      "Marta",
+      "Madalena",
+      "Isabel"
+    ],
+    "explanation": "Maria de Nazare.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem batizou Jesus?",
+    "correct_answer": "Joao Batista",
+    "wrong_answers": [
+      "Pedro",
+      "Joao",
+      "Andre"
+    ],
+    "explanation": "Joao batizou no rio Jordao.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos discipulos Jesus escolheu?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "10",
+      "11",
+      "70"
+    ],
+    "explanation": "Jesus escolheu doze discipulos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o primeiro rei de Israel?",
+    "correct_answer": "Sauel",
+    "wrong_answers": [
+      "Davi",
+      "Salomao",
+      "Sauel"
+    ],
+    "explanation": "Sauel ungiu os primeiros reis.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o rei mais sabio?",
+    "correct_answer": "Salomao",
+    "wrong_answers": [
+      "Davi",
+      "Sauel",
+      "Ezequias"
+    ],
+    "explanation": "Salomao pediu sabedoria a Deus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi jogado na fornalha ardente?",
+    "correct_answer": "Sadraque, Mesaque e Abede-Nego",
+    "wrong_answers": [
+      "Daniel",
+      "Elias",
+      "Ezequiel"
+    ],
+    "explanation": "Os tres jovens foram salvos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem subiu ao ceu em um carro de fogo?",
+    "correct_answer": "Elias",
+    "wrong_answers": [
+      "Enoque",
+      "Enoque",
+      "Eliseu"
+    ],
+    "explanation": "Elias foi levado em redemoinho.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem andou sobre as aguas?",
+    "correct_answer": "Pedro e Jesus",
+    "wrong_answers": [
+      "Paulo",
+      "Joao",
+      "Andre"
+    ],
+    "explanation": "Pedro andou ate duvidar.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem ressuscitou Lazaro?",
+    "correct_answer": "Jesus",
+    "wrong_answers": [
+      "Pedro",
+      "Paulo",
+      "Eliseu"
+    ],
+    "explanation": "Jesus chamou Lazaro para fora.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos dias Jesus ficou no tumulo?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "1",
+      "7",
+      "40"
+    ],
+    "explanation": "Ressuscitou ao terceiro dia.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos dias Noe ficou na arca com a chuva?",
+    "correct_answer": "40",
+    "wrong_answers": [
+      "7",
+      "150",
+      "12"
+    ],
+    "explanation": "Choveu 40 dias e 40 noites.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos anos o povo de Israel vagueou no deserto?",
+    "correct_answer": "40",
+    "wrong_answers": [
+      "7",
+      "4",
+      "12"
+    ],
+    "explanation": "40 anos por causa da desobediencia.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas pragas cairam sobre o Egito?",
+    "correct_answer": "10",
+    "wrong_answers": [
+      "7",
+      "12",
+      "3"
+    ],
+    "explanation": "Dez pragas antes do Exodo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas tribos tinha Israel?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "10",
+      "13",
+      "7"
+    ],
+    "explanation": "Doze tribos dos filhos de Jacó.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual animal falou com Balao?",
+    "correct_answer": "Jumenta",
+    "wrong_answers": [
+      "Serpente",
+      "Corvo",
+      "Peixe"
+    ],
+    "explanation": "A jumenta viu o anjo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o homem mais forte?",
+    "correct_answer": "Sansao",
+    "wrong_answers": [
+      "Golias",
+      "Davi",
+      "Gideao"
+    ],
+    "explanation": "Sansao tinha forca nos cabelos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi a primeira mulher juiza?",
+    "correct_answer": "Debora",
+    "wrong_answers": [
+      "Rute",
+      "Ester",
+      "Miriam"
+    ],
+    "explanation": "Debora julgava em Israel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi crianca e serviu no tabernaculo?",
+    "correct_answer": "Samuel",
+    "wrong_answers": [
+      "Davi",
+      "Salomao",
+      "Joao"
+    ],
+    "explanation": "Samuel ouvira a voz de Deus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi rainha e salvou seu povo?",
+    "correct_answer": "Ester",
+    "wrong_answers": [
+      "Rute",
+      "Debora",
+      "Sara"
+    ],
+    "explanation": "Ester intercedeu por Israel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi avo de Davi?",
+    "correct_answer": "Rute",
+    "wrong_answers": [
+      "Ester",
+      "Raquel",
+      "Lea"
+    ],
+    "explanation": "Rute e bisavó de Davi.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o primeiro livro da Lei?",
+    "correct_answer": "Genesis",
+    "wrong_answers": [
+      "Exodo",
+      "Levitico",
+      "Numeros"
+    ],
+    "explanation": "Genesis e o primeiro do Pentateuco.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros tem a Lei (Pentateuco)?",
+    "correct_answer": "5",
+    "wrong_answers": [
+      "4",
+      "6",
+      "7"
+    ],
+    "explanation": "Genesis, Exodo, Levitico, Numeros, Deuteronômio.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Moisés recebeu os Dez Mandamentos?",
+    "correct_answer": "Monte Sinai",
+    "wrong_answers": [
+      "Monte Carmelo",
+      "Monte das Oliveiras",
+      "Monte Hermom"
+    ],
+    "explanation": "No Sinai, tambem chamado Horebe.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro contem os Dez Mandamentos?",
+    "correct_answer": "Exodo",
+    "wrong_answers": [
+      "Genesis",
+      "Deuteronomio",
+      "Levitico"
+    ],
+    "explanation": "Exodo 20 e Deuteronômio 5.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala do tabernaculo?",
+    "correct_answer": "Exodo",
+    "wrong_answers": [
+      "Levitico",
+      "Numeros",
+      "Josue"
+    ],
+    "explanation": "Exodo descreve a construcao.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala das ofertas e sacrificios?",
+    "correct_answer": "Levitico",
+    "wrong_answers": [
+      "Exodo",
+      "Numeros",
+      "Deuteronomio"
+    ],
+    "explanation": "Levitico regula o culto.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro relata a peregrinacao no deserto?",
+    "correct_answer": "Numeros",
+    "wrong_answers": [
+      "Exodo",
+      "Josue",
+      "Deuteronomio"
+    ],
+    "explanation": "Numeros cobre os 40 anos.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro e o discurso final de Moises?",
+    "correct_answer": "Deuteronomio",
+    "wrong_answers": [
+      "Numeros",
+      "Josue",
+      "Levitico"
+    ],
+    "explanation": "Deuteronomio significa segunda lei.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros historicos tem o AT?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "10",
+      "16",
+      "5"
+    ],
+    "explanation": "De Josue a Ester.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros poeticos tem o AT?",
+    "correct_answer": "5",
+    "wrong_answers": [
+      "3",
+      "7",
+      "6"
+    ],
+    "explanation": "Jó, Salmos, Proverbios, Eclesiastes, Cantares.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros profeticos maiores?",
+    "correct_answer": "5",
+    "wrong_answers": [
+      "4",
+      "6",
+      "3"
+    ],
+    "explanation": "Isaias, Jeremias, Lamentacoes, Ezequiel, Daniel.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros profeticos menores?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "10",
+      "14",
+      "11"
+    ],
+    "explanation": "Os doze profetas menores.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro e uma coletanea de cantos?",
+    "correct_answer": "Salmos",
+    "wrong_answers": [
+      "Cantares",
+      "Proverbios",
+      "Eclesiastes"
+    ],
+    "explanation": "Salmos tem 150 cantos.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala da sabedoria?",
+    "correct_answer": "Proverbios",
+    "wrong_answers": [
+      "Eclesiastes",
+      "Jó",
+      "Salmos"
+    ],
+    "explanation": "Proverbios de Salomao.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta foi ao Ninive?",
+    "correct_answer": "Jonas",
+    "wrong_answers": [
+      "Nahum",
+      "Isaias",
+      "Ezequiel"
+    ],
+    "explanation": "Jonas pregou o arrependimento.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta interpretou sonhos do rei?",
+    "correct_answer": "Daniel",
+    "wrong_answers": [
+      "Jose",
+      "Ezequiel",
+      "Jeremias"
+    ],
+    "explanation": "Daniel na corte de Nabucodonosor.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem escreveu Lamentacoes?",
+    "correct_answer": "Jeremias",
+    "wrong_answers": [
+      "Isaias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "explanation": "Jeremias lamentou Jerusalém.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala da volta do exilio?",
+    "correct_answer": "Esdras e Neemias",
+    "wrong_answers": [
+      "Ester",
+      "Ageu",
+      "Zacarias"
+    ],
+    "explanation": "Reconstrucao de Jerusalém.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o primeiro evangelho?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Marcos",
+      "Lucas",
+      "Joao"
+    ],
+    "explanation": "Mateus escreveu aos judeus.",
     "category": "novo_testamento"
   },
   {
     "difficulty_level": "beginner",
     "question_type": "multiple_choice",
-    "question_text": "Onde Jesus nasceu?",
-    "correct_answer": "Belem",
-    "wrong_answers": ["Nazare", "Jerusalem", "Galileia"],
-    "explanation": "Jesus nasceu em Belem da Judeia, conforme profetizado.",
+    "question_text": "Qual evangelho e o mais curto?",
+    "correct_answer": "Marcos",
+    "wrong_answers": [
+      "Mateus",
+      "Lucas",
+      "Joao"
+    ],
+    "explanation": "Marcos e conciso e direto.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho narra o nascimento de Joao Batista?",
+    "correct_answer": "Lucas",
+    "wrong_answers": [
+      "Mateus",
+      "Marcos",
+      "Joao"
+    ],
+    "explanation": "Lucas inclui a infancia.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho comeca com 'No principio era o Verbo'?",
+    "correct_answer": "Joao",
+    "wrong_answers": [
+      "Genesis",
+      "Mateus",
+      "Hebreus"
+    ],
+    "explanation": "Joao 1:1.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro narra a igreja primitiva?",
+    "correct_answer": "Atos",
+    "wrong_answers": [
+      "Romanos",
+      "Hebreus",
+      "Apocalipse"
+    ],
+    "explanation": "Atos dos Apostolos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas cartas de Paulo estao na Biblia?",
+    "correct_answer": "13",
+    "wrong_answers": [
+      "12",
+      "14",
+      "10"
+    ],
+    "explanation": "De Romanos a Filemom.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala da justificacao pela fe?",
+    "correct_answer": "Romanos",
+    "wrong_answers": [
+      "Galatas",
+      "Hebreus",
+      "Tiago"
+    ],
+    "explanation": "Romanos explica a salvacao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala do amor?",
+    "correct_answer": "1 Corintios 13",
+    "wrong_answers": [
+      "Joao",
+      "Romanos",
+      "Galatas"
+    ],
+    "explanation": "O capitulo do amor.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas cartas gerais (nao paulinas)?",
+    "correct_answer": "8",
+    "wrong_answers": [
+      "7",
+      "9",
+      "6"
+    ],
+    "explanation": "Tiago, Pedro, Joao, Judas.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala do fim dos tempos?",
+    "correct_answer": "Apocalipse",
+    "wrong_answers": [
+      "Daniel",
+      "Ezequiel",
+      "2 Tessalonicenses"
+    ],
+    "explanation": "Apocalipse de Joao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem escreveu o Apocalipse?",
+    "correct_answer": "Joao",
+    "wrong_answers": [
+      "Pedro",
+      "Paulo",
+      "Judas"
+    ],
+    "explanation": "Joao na ilha de Patmos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelista era medico?",
+    "correct_answer": "Lucas",
+    "wrong_answers": [
+      "Mateus",
+      "Marcos",
+      "Joao"
+    ],
+    "explanation": "Lucas e autor de Lucas e Atos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelista era cobrador de impostos?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Marcos",
+      "Lucas",
+      "Joao"
+    ],
+    "explanation": "Mateus (Levi).",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus fez o Sermao da Montanha?",
+    "correct_answer": "Monte das Oliveiras/Galileia",
+    "wrong_answers": [
+      "Jerusalem",
+      "Deserto",
+      "Templo"
+    ],
+    "explanation": "Jesus ensinou na montanha.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas bem-aventurancas existem?",
+    "correct_answer": "9",
+    "wrong_answers": [
+      "7",
+      "8",
+      "10"
+    ],
+    "explanation": "Mateus 5:3-12.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual oracao Jesus ensinou?",
+    "correct_answer": "Pai Nosso",
+    "wrong_answers": [
+      "Ave Maria",
+      "Gloria",
+      "Credo"
+    ],
+    "explanation": "O modelo de oracao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus foi crucificado?",
+    "correct_answer": "Golgota",
+    "wrong_answers": [
+      "Monte Sinai",
+      "Templo",
+      "Betania"
+    ],
+    "explanation": "Golgota = lugar da caveira.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem pediu o corpo de Jesus?",
+    "correct_answer": "Jose de Arimateia",
+    "wrong_answers": [
+      "Nicodemos",
+      "Pilatos",
+      "Joao"
+    ],
+    "explanation": "Jose colocou no tumulo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos dias apos a ressurreicao Jesus subiu ao ceu?",
+    "correct_answer": "40",
+    "wrong_answers": [
+      "3",
+      "7",
+      "50"
+    ],
+    "explanation": "40 dias de aparicoes.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde os discipulos receberam o Espirito Santo?",
+    "correct_answer": "Jerusalem",
+    "wrong_answers": [
+      "Galileia",
+      "Damasco",
+      "Antioquia"
+    ],
+    "explanation": "No Pentecostes.",
     "category": "novo_testamento"
   },
   {
@@ -49,8 +1187,12 @@
     "question_type": "multiple_choice",
     "question_text": "Quantos dias e noites Noe ficou na arca com a chuva?",
     "correct_answer": "40",
-    "wrong_answers": ["7", "150", "12"],
-    "explanation": "Choveu 40 dias e 40 noites; depois as aguas permaneceram por mais tempo.",
+    "wrong_answers": [
+      "7",
+      "150",
+      "12"
+    ],
+    "explanation": "Choveu 40 dias e 40 noites.",
     "category": "historia"
   },
   {
@@ -58,35 +1200,5327 @@
     "question_type": "multiple_choice",
     "question_text": "Qual rei pediu a cabeca de Joao Batista?",
     "correct_answer": "Herodes",
-    "wrong_answers": ["Pilatos", "Cesar", "Nero"],
-    "explanation": "Herodes Antipas mandou decapitar Joao Batista a pedido de Herodias.",
+    "wrong_answers": [
+      "Pilatos",
+      "Cesar",
+      "Nero"
+    ],
+    "explanation": "Herodes Antipas mandou decapitar Joao.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta foi levado ao ceu em um carro de fogo?",
+    "correct_answer": "Elias",
+    "wrong_answers": [
+      "Enoque",
+      "Ezequiel",
+      "Eliseu"
+    ],
+    "explanation": "Elias em carro e cavalos de fogo.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Em qual livro aparece 'No principio era o Verbo'?",
+    "correct_answer": "Joao",
+    "wrong_answers": [
+      "Genesis",
+      "Hebreus",
+      "1 Joao"
+    ],
+    "explanation": "Joao 1:1.",
     "category": "novo_testamento"
   },
   {
     "difficulty_level": "intermediate",
     "question_type": "multiple_choice",
-    "question_text": "Quantos livros tem o Novo Testamento?",
-    "correct_answer": "27",
-    "wrong_answers": ["39", "66", "22"],
-    "explanation": "O Novo Testamento tem 27 livros: evangelhos, Atos, cartas e Apocalipse.",
+    "question_text": "Quem foi o pai de Isaque?",
+    "correct_answer": "Abraao",
+    "wrong_answers": [
+      "Jacó",
+      "Noe",
+      "Jose"
+    ],
+    "explanation": "Isaque nasceu de Abraao e Sara.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o pai de Jacó?",
+    "correct_answer": "Isaque",
+    "wrong_answers": [
+      "Abraao",
+      "Esau",
+      " Labao"
+    ],
+    "explanation": "Jacó era filho de Isaque e Rebeca.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos filhos teve Jacó?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "10",
+      "13",
+      "11"
+    ],
+    "explanation": "As doze tribos de Israel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual filho de Jacó foi vendido ao Egito?",
+    "correct_answer": "Jose",
+    "wrong_answers": [
+      "Benjamin",
+      "Ruben",
+      "Judá"
+    ],
+    "explanation": "Vendido pelos irmaos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual faraó reinava quando Jose foi ao Egito?",
+    "correct_answer": "Nao nomeado",
+    "wrong_answers": [
+      "Ramsés",
+      "Amenotepe",
+      "Tutmés"
+    ],
+    "explanation": "A Biblia nao nomeia o faraó.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos anos Jose passou no Egito antes de ver seus irmaos?",
+    "correct_answer": "cerca de 20",
+    "wrong_answers": [
+      "7",
+      "40",
+      "13"
+    ],
+    "explanation": "Jose tinha 17 quando vendido.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual rio Israel atravessou para entrar em Canaa?",
+    "correct_answer": "Jordao",
+    "wrong_answers": [
+      "Nilo",
+      "Eufrates",
+      "Mar Vermelho"
+    ],
+    "explanation": "Josue conduziu a travessia.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas vezes Israel rodeou Jerico?",
+    "correct_answer": "7 no setimo dia",
+    "wrong_answers": [
+      "3",
+      "12",
+      "40"
+    ],
+    "explanation": "Sete dias, no setimo dia sete voltas.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi a mae de Salomao?",
+    "correct_answer": "Bateseba",
+    "wrong_answers": [
+      "Abisag",
+      "Maaca",
+      "Hagite"
+    ],
+    "explanation": "Bateseba, ex-esposa de Urias.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos salmos Davi escreveu?",
+    "correct_answer": "cerca de 73",
+    "wrong_answers": [
+      "50",
+      "150",
+      "100"
+    ],
+    "explanation": "Davi escreveu a maioria dos Salmos.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual Salmo e o mais longo?",
+    "correct_answer": "Salmo 119",
+    "wrong_answers": [
+      "Salmo 23",
+      "Salmo 91",
+      "Salmo 51"
+    ],
+    "explanation": "119 tem 176 versiculos.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Davi matou Golias?",
+    "correct_answer": "Vale de Ela",
+    "wrong_answers": [
+      "Jerusalem",
+      "Belém",
+      "Hebrom"
+    ],
+    "explanation": "Entre Soco e Azeca.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a cidade natal de Jesus?",
+    "correct_answer": "Nazare",
+    "wrong_answers": [
+      "Belém",
+      "Jerusalem",
+      "Galileia"
+    ],
+    "explanation": "Criado em Nazare da Galileia.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus nasceu?",
+    "correct_answer": "Belém",
+    "wrong_answers": [
+      "Nazare",
+      "Jerusalem",
+      "Galileia"
+    ],
+    "explanation": "Belém da Judeia.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem visitou Jesus apos o nascimento?",
+    "correct_answer": "Pastores e magos",
+    "wrong_answers": [
+      "Herodes",
+      "Pilatos",
+      "Annas"
+    ],
+    "explanation": "Pastores primeiro, depois magos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos presentes os magos deram?",
+    "correct_answer": "3 tipos",
+    "wrong_answers": [
+      "2",
+      "4",
+      "12"
+    ],
+    "explanation": "Ouro, incenso e mirra.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus foi tentado?",
+    "correct_answer": "Deserto da Judeia",
+    "wrong_answers": [
+      "Monte Sinai",
+      "Jardim do Getsemani",
+      "Templo"
+    ],
+    "explanation": "40 dias no deserto.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas vezes Jesus foi tentado no deserto?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "2",
+      "7",
+      "40"
+    ],
+    "explanation": "Pao, pinaculo, montanha.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o primeiro milagre de Jesus?",
+    "correct_answer": "Agua em vinho",
+    "wrong_answers": [
+      "Pescaria milagrosa",
+      "Cura do paralitico",
+      "Ressurreicao de Lazaro"
+    ],
+    "explanation": "Nas bodas de Cana.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu o primeiro milagre de Jesus?",
+    "correct_answer": "Cana da Galileia",
+    "wrong_answers": [
+      "Jerusalem",
+      "Nazare",
+      "Betania"
+    ],
+    "explanation": "Nas bodas de Cana.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos pães e peixes Jesus multiplicou para 5000?",
+    "correct_answer": "5 e 2",
+    "wrong_answers": [
+      "7 e 3",
+      "3 e 2",
+      "12 e 5"
+    ],
+    "explanation": "Cinco pães e dois peixes.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus multiplicou os pães?",
+    "correct_answer": "Lugar deserto",
+    "wrong_answers": [
+      "Jerusalem",
+      "Templo",
+      "Casa"
+    ],
+    "explanation": "Perto de Betsaida.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem perguntou 'Que e a verdade?'?",
+    "correct_answer": "Pilatos",
+    "wrong_answers": [
+      "Herodes",
+      "Caifas",
+      "Annas"
+    ],
+    "explanation": "Pilatos a Jesus.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem lavou as maos diante do povo?",
+    "correct_answer": "Pilatos",
+    "wrong_answers": [
+      "Herodes",
+      "Barrabas",
+      "Centuriao"
+    ],
+    "explanation": "Pilatos declarou-se inocente.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Em que lingua estava a inscricao na cruz?",
+    "correct_answer": "Hebraico, Latin e Grego",
+    "wrong_answers": [
+      "Só hebraico",
+      "Só grego",
+      "Só latin"
+    ],
+    "explanation": "INRI em tres linguas.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem carregou a cruz de Jesus?",
+    "correct_answer": "Simao de Cirene",
+    "wrong_answers": [
+      "Joao",
+      "Pedro",
+      "Jose"
+    ],
+    "explanation": "Simao foi obrigado a carregar.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas palavras Jesus disse na cruz?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "5",
+      "10",
+      "12"
+    ],
+    "explanation": "As sete ultimas palavras.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o primeiro a ver Jesus ressuscitado?",
+    "correct_answer": "Maria Madalena",
+    "wrong_answers": [
+      "Pedro",
+      "Joao",
+      "As mulheres"
+    ],
+    "explanation": "Maria no tumulo vazio.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas pessoas receberam o Espirito no Pentecostes?",
+    "correct_answer": "120",
+    "wrong_answers": [
+      "12",
+      "70",
+      "500"
+    ],
+    "explanation": "Eram 120 no cenaculo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas linguas foram ouvidas no Pentecostes?",
+    "correct_answer": "Varias",
+    "wrong_answers": [
+      "3",
+      "12",
+      "70"
+    ],
+    "explanation": "Cada um ouvia na propria lingua.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas pessoas receberam o Espirito no Pentecostes?",
+    "correct_answer": "120",
+    "wrong_answers": [
+      "12",
+      [
+        "70",
+        "500"
+      ]
+    ],
+    "explanation": "Eram 120 no cenaculo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas linguas foram ouvidas no Pentecostes?",
+    "correct_answer": "Varias (povos)",
+    "wrong_answers": [
+      "3",
+      [
+        "12",
+        "70"
+      ]
+    ],
+    "explanation": "Cada um ouvia na propria lingua.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o primeiro gentio convertido?",
+    "correct_answer": "Cornelio",
+    "wrong_answers": [
+      "Lidio",
+      "Simeao",
+      "Eunuco"
+    ],
+    "explanation": "Cornelio, centuriao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas pessoas se converteram no Pentecostes?",
+    "correct_answer": "cerca de 3000",
+    "wrong_answers": [
+      "120",
+      [
+        "500",
+        "5000"
+      ]
+    ],
+    "explanation": "Três mil almas.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o primeiro gentio convertido?",
+    "correct_answer": "Cornelio",
+    "wrong_answers": [
+      "Lidio",
+      [
+        "Simeao",
+        "Eunuco"
+      ]
+    ],
+    "explanation": "Cornelio, centuriao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo foi martirizado primeiro?",
+    "correct_answer": "Tiago (filho de Zebedeu)",
+    "wrong_answers": [
+      "Pedro",
+      "Estevao",
+      "Paulo"
+    ],
+    "explanation": "Tiago morto por Herodes.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem perseguiu a igreja antes de converter?",
+    "correct_answer": "Saulo (Paulo)",
+    "wrong_answers": [
+      "Herodes",
+      "Pilatos",
+      "Caifas"
+    ],
+    "explanation": "Saulo a caminho de Damasco.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem curou Saulo da cegueira?",
+    "correct_answer": "Ananias",
+    "wrong_answers": [
+      "Pedro",
+      "Barnabe",
+      "Filipe"
+    ],
+    "explanation": "Ananias em Damasco.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas viagens missionarias Paulo fez?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "Três viagens registradas.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Paulo foi apedrejado?",
+    "correct_answer": "Listra",
+    "wrong_answers": [
+      "Iconio",
+      "Antioquia",
+      "Jerusalem"
+    ],
+    "explanation": "Dado por morto.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas cartas Paulo escreveu na prisao?",
+    "correct_answer": "4",
+    "wrong_answers": [
+      "3",
+      "5",
+      "6"
+    ],
+    "explanation": "Efesios, Filipenses, Colossenses, Filemom.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem escreveu Hebreus?",
+    "correct_answer": "Desconhecido",
+    "wrong_answers": [
+      "Paulo",
+      "Lucas",
+      "Apolo"
+    ],
+    "explanation": "Autoria discutida.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de Melquisedeque?",
+    "correct_answer": "Hebreus",
+    "wrong_answers": [
+      "Genesis",
+      "Salmos",
+      "Romanos"
+    ],
+    "explanation": "Tipo de Cristo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala de fe e obras?",
+    "correct_answer": "Tiago",
+    "wrong_answers": [
+      "Romanos",
+      "Galatas",
+      "Hebreus"
+    ],
+    "explanation": "A fe sem obras e morta.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas trombetas no Apocalipse?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "6",
+      "10",
+      "12"
+    ],
+    "explanation": "As sete trombetas.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas taças da ira no Apocalipse?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "6",
+      "10",
+      "12"
+    ],
+    "explanation": "As sete taças.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero da besta?",
+    "correct_answer": "666",
+    "wrong_answers": [
+      "616",
+      "777",
+      "888"
+    ],
+    "explanation": "Apocalipse 13:18.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do AT nao tem capitulo 3?",
+    "correct_answer": "2 Joao",
+    "wrong_answers": [
+      "Joao",
+      "Judas",
+      "Obadias"
+    ],
+    "explanation": "2 Joao nao tem cap 3.",
     "category": "geral"
   },
   {
     "difficulty_level": "advanced",
     "question_type": "multiple_choice",
-    "question_text": "Qual profeta foi levado ao ceu em um carro de fogo?",
-    "correct_answer": "Elias",
-    "wrong_answers": ["Enoque", "Ezequiel", "Eliseu"],
-    "explanation": "Elias foi levado ao ceu em um redemoinho com carro e cavalos de fogo.",
+    "question_text": "Qual o versiculo mais curto da Biblia?",
+    "correct_answer": "Jo 11:35",
+    "wrong_answers": [
+      "Sl 117:2",
+      "1 Ts 5:16",
+      "Jo 11:35"
+    ],
+    "explanation": "Jesus chorou.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro tem o mesmo numero de versiculos que capitulos?",
+    "correct_answer": "Alguns",
+    "wrong_answers": [
+      "Salmos",
+      "Proverbios",
+      "Isaias"
+    ],
+    "explanation": "Obadias: 1 cap, 21 vers.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Quem era primo de Jesus?",
+    "correct_answer": "Joao Batista",
+    "wrong_answers": [
+      "Tiago",
+      "Judas",
+      "Andre"
+    ],
+    "explanation": "Filhos de Maria e Isabel.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual discipulo era pescador?",
+    "correct_answer": "Pedro, Andre, Tiago, Joao",
+    "wrong_answers": [
+      "Mateus",
+      "Filipe",
+      "Tomas"
+    ],
+    "explanation": "Eram pescadores no mar da Galileia.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas vezes a palavra 'Deus' aparece em Genesis 1?",
+    "correct_answer": "32",
+    "wrong_answers": [
+      "7",
+      "10",
+      "40"
+    ],
+    "explanation": "Ou varia por versao.",
     "category": "antigo_testamento"
   },
   {
     "difficulty_level": "advanced",
     "question_type": "multiple_choice",
-    "question_text": "Em qual livro da Biblia aparece a frase 'No principio era o Verbo'?",
-    "correct_answer": "Joao",
-    "wrong_answers": ["Genesis", "Hebreus", "1 Joao"],
-    "explanation": "O evangelho de Joao comeca com 'No principio era o Verbo' (Jo 1:1).",
+    "question_text": "Qual o nome hebraico de Josue?",
+    "correct_answer": "Yehoshua",
+    "wrong_answers": [
+      "Moshe",
+      "David",
+      "Shlomo"
+    ],
+    "explanation": "Jesus em hebraico e Yeshua.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Em qual periodo foi escrito o livro de Jó?",
+    "correct_answer": "Indeterminado",
+    "wrong_answers": [
+      "Exodo",
+      "Reino Unido",
+      "Exilio"
+    ],
+    "explanation": "Provavelmente patriarcal.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual Salmo tem 176 versiculos?",
+    "correct_answer": "119",
+    "wrong_answers": [
+      "23",
+      "91",
+      "51"
+    ],
+    "explanation": "O mais longo.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos 'Eu sou' de Jesus em Joao?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "5",
+      "10",
+      "12"
+    ],
+    "explanation": "Pão, luz, porta, pastor, etc.",
     "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho tem a Parabola do Bom Samaritano?",
+    "correct_answer": "Lucas",
+    "wrong_answers": [
+      "Mateus",
+      "Marcos",
+      "Joao"
+    ],
+    "explanation": "Só Lucas registra.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho tem a Parabola do Filho Prodigo?",
+    "correct_answer": "Lucas",
+    "wrong_answers": [
+      "Mateus",
+      "Marcos",
+      "Joao"
+    ],
+    "explanation": "Só Lucas registra.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas parabolicas Jesus contou?",
+    "correct_answer": "cerca de 40",
+    "wrong_answers": [
+      "12",
+      "7",
+      "50"
+    ],
+    "explanation": "Varia por definicao de parabola.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual era a profissao de Lucas?",
+    "correct_answer": "Medico",
+    "wrong_answers": [
+      "Pescador",
+      "Cobrador",
+      "Fariséu"
+    ],
+    "explanation": "Colossenses 4:14.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era zelote?",
+    "correct_answer": "Simao",
+    "wrong_answers": [
+      "Judas",
+      "Mateus",
+      "Tomas"
+    ],
+    "explanation": "Simao o Zelote.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo duvidou da ressurreicao?",
+    "correct_answer": "Tomas",
+    "wrong_answers": [
+      "Pedro",
+      "Judas",
+      "Filipe"
+    ],
+    "explanation": "Precisou ver para crer.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Quem escreveu 2 Pedro?",
+    "correct_answer": "Pedro",
+    "wrong_answers": [
+      "Paulo",
+      "Joao",
+      "Judas"
+    ],
+    "explanation": "Segunda carta de Pedro.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro menciona o amor 9 vezes em 13 versiculos?",
+    "correct_answer": "1 Joao 4",
+    "wrong_answers": [
+      "1 Cor 13",
+      "Romanos 8",
+      "Joao 3"
+    ],
+    "explanation": "1 Joao 4:7-21.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta foi escrita para Filemom?",
+    "correct_answer": "Filemom",
+    "wrong_answers": [
+      "Tito",
+      "Timoteo",
+      "Efesios"
+    ],
+    "explanation": "Carta pessoal de Paulo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro nao menciona o nome de Jesus?",
+    "correct_answer": "Ester e Canticos",
+    "wrong_answers": [
+      "Rute",
+      "Jó",
+      "Eclesiastes"
+    ],
+    "explanation": "Ester e Cantares.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas vezes 'nao temas' aparece na Biblia?",
+    "correct_answer": "365",
+    "wrong_answers": [
+      "40",
+      "150",
+      "100"
+    ],
+    "explanation": "Uma para cada dia.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta previu a virgem que daria a luz?",
+    "correct_answer": "Isaias",
+    "wrong_answers": [
+      "Jeremias",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "explanation": "Isaias 7:14.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta falou do servo sofredor?",
+    "correct_answer": "Isaias",
+    "wrong_answers": [
+      "Jeremias",
+      "Daniel",
+      "Joel"
+    ],
+    "explanation": "Isaias 53.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta foi ao exilio na Babilonia?",
+    "correct_answer": "Ezequiel",
+    "wrong_answers": [
+      "Jeremias",
+      "Daniel",
+      "Isaias"
+    ],
+    "explanation": "Ezequiel no exilio.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta interpretou a escrita na parede?",
+    "correct_answer": "Daniel",
+    "wrong_answers": [
+      "Ezequiel",
+      "Isaias",
+      "Jeremias"
+    ],
+    "explanation": "Mene, Mene, Tequel.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta anunciou o Dia do Senhor?",
+    "correct_answer": "Joel",
+    "wrong_answers": [
+      "Amos",
+      "Obadias",
+      "Jonas"
+    ],
+    "explanation": "Joel 2.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta casou com uma prostituta?",
+    "correct_answer": "Oseias",
+    "wrong_answers": [
+      "Amos",
+      "Jonas",
+      "Miqueias"
+    ],
+    "explanation": "Simbolo do amor de Deus.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta pregou em Ninive?",
+    "correct_answer": "Jonas",
+    "wrong_answers": [
+      "Nahum",
+      "Obadias",
+      "Habacuque"
+    ],
+    "explanation": "Ninive se arrependeu.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta profetizou contra Edom?",
+    "correct_answer": "Obadias",
+    "wrong_answers": [
+      "Jonas",
+      "Amos",
+      "Miqueias"
+    ],
+    "explanation": "Livro mais curto do AT.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta viu a roda?",
+    "correct_answer": "Ezequiel",
+    "wrong_answers": [
+      "Daniel",
+      "Isaias",
+      "Jeremias"
+    ],
+    "explanation": "Visao do trono de Deus.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual profeta ficou no ventre do peixe 3 dias?",
+    "correct_answer": "Jonas",
+    "wrong_answers": [
+      "Daniel",
+      "Jeremias",
+      "Ezequiel"
+    ],
+    "explanation": "Pre-figura a ressurreicao.",
+    "category": "profecia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro poetico fala do sofrimento?",
+    "correct_answer": "Job",
+    "wrong_answers": [
+      "Salmos",
+      "Proverbios",
+      "Eclesiastes"
+    ],
+    "explanation": "Job e seus amigos.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro poetico fala da vaidade?",
+    "correct_answer": "Eclesiastes",
+    "wrong_answers": [
+      "Job",
+      "Proverbios",
+      "Cantares"
+    ],
+    "explanation": "Vaidade de vaidades.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro poetico e um dialogo de amor?",
+    "correct_answer": "Canticos",
+    "wrong_answers": [
+      "Salmos",
+      "Proverbios",
+      "Job"
+    ],
+    "explanation": "Tambem chamado Cantares.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual Salmo comeca 'O Senhor e meu pastor'?",
+    "correct_answer": "23",
+    "wrong_answers": [
+      "1",
+      "91",
+      "119"
+    ],
+    "explanation": "O Salmo do Bom Pastor.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual Salmo fala da criacao?",
+    "correct_answer": "19",
+    "wrong_answers": [
+      "8",
+      "104",
+      "139"
+    ],
+    "explanation": "Os ceus proclamam.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual Salmo e de arrependimento?",
+    "correct_answer": "51",
+    "wrong_answers": [
+      "32",
+      "38",
+      "130"
+    ],
+    "explanation": "O Salmo de Davi apos Bateseba.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Instrui o menino no caminho'?",
+    "correct_answer": "Proverbios 22:6",
+    "wrong_answers": [
+      "Deuteronomio 6",
+      "Efesios 6",
+      "Colossenses 3"
+    ],
+    "explanation": "Educacao dos filhos.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Confia no Senhor de todo o coracao'?",
+    "correct_answer": "Proverbios 3:5",
+    "wrong_answers": [
+      "Salmos 37",
+      "Isaias 26",
+      "Jeremias 17"
+    ],
+    "explanation": "Sabedoria da confianca.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual proverbio fala de amizade?",
+    "correct_answer": "Prov 27:17",
+    "wrong_answers": [
+      "Prov 18:24",
+      "Prov 17:17",
+      "Prov 22:6"
+    ],
+    "explanation": "O ferro afia o ferro.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Tudo tem seu tempo'?",
+    "correct_answer": "Eclesiastes 3",
+    "wrong_answers": [
+      "Job 14",
+      "Salmos 90",
+      "Proverbios 16"
+    ],
+    "explanation": "Tempo de nascer, tempo de morrer.",
+    "category": "poesia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual mandamento proibe idolatria?",
+    "correct_answer": "Segundo",
+    "wrong_answers": [
+      "Primeiro",
+      "Terceiro",
+      "Decimo"
+    ],
+    "explanation": "Nao faras imagem de escultura.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual mandamento fala do sabado?",
+    "correct_answer": "Quarto",
+    "wrong_answers": [
+      "Terceiro",
+      "Quinto",
+      "Setimo"
+    ],
+    "explanation": "Lembra-te do dia de repouso.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual mandamento proibe falso testemunho?",
+    "correct_answer": "Nono",
+    "wrong_answers": [
+      "Oitavo",
+      "Decimo",
+      "Sexto"
+    ],
+    "explanation": "Nao diras falso testemunho.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual mandamento proibe cobiçar?",
+    "correct_answer": "Decimo",
+    "wrong_answers": [
+      "Nono",
+      "Oitavo",
+      "Setimo"
+    ],
+    "explanation": "Nao cobiçarás.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos mandamentos ha?",
+    "correct_answer": "10",
+    "wrong_answers": [
+      "7",
+      "12",
+      "5"
+    ],
+    "explanation": "Os Dez Mandamentos.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Moises viu a sarça ardente?",
+    "correct_answer": "Monte Horebe",
+    "wrong_answers": [
+      "Monte Sinai",
+      "Monte Nebo",
+      "Monte Carmelo"
+    ],
+    "explanation": "Na terra de Midiã.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual era o nome da mulher de Moises?",
+    "correct_answer": "Zípora",
+    "wrong_answers": [
+      "Miriam",
+      "Miriã",
+      "Sefora"
+    ],
+    "explanation": "Filha de Jetro.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas pragas foram de sangue?",
+    "correct_answer": "1",
+    "wrong_answers": [
+      "3",
+      "7",
+      "10"
+    ],
+    "explanation": "A primeira praga.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que Israel comeu no deserto?",
+    "correct_answer": "Mana",
+    "wrong_answers": [
+      "Codorna",
+      "Pao",
+      "Peixe"
+    ],
+    "explanation": "Pao do ceu.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Moises morreu?",
+    "correct_answer": "Monte Nebo",
+    "wrong_answers": [
+      "Monte Sinai",
+      "Monte Horebe",
+      "Canaa"
+    ],
+    "explanation": "Viu Canaa mas nao entrou.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Para qual igreja Paulo escreveu sobre o amor?",
+    "correct_answer": "Corinto",
+    "wrong_answers": [
+      "Efeso",
+      "Filipos",
+      "Roma"
+    ],
+    "explanation": "1 Corintios 13.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala da armadura de Deus?",
+    "correct_answer": "Efesios",
+    "wrong_answers": [
+      "Filipenses",
+      "Colossenses",
+      "Romanos"
+    ],
+    "explanation": "Efesios 6.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta diz 'Regozijai-vos sempre'?",
+    "correct_answer": "Filipenses",
+    "wrong_answers": [
+      "1 Tessalonicenses",
+      "Colossenses",
+      "Efesios"
+    ],
+    "explanation": "Filipenses 4:4.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala de Cristo como cabeca?",
+    "correct_answer": "Colossenses",
+    "wrong_answers": [
+      "Efesios",
+      "Filipenses",
+      "Romanos"
+    ],
+    "explanation": "Cristo preeminente.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta foi para um escravo fugitivo?",
+    "correct_answer": "Filemom",
+    "wrong_answers": [
+      "Tito",
+      "1 Timoteo",
+      "2 Timoteo"
+    ],
+    "explanation": "Onesimo.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala do fim dos tempos?",
+    "correct_answer": "2 Tessalonicenses",
+    "wrong_answers": [
+      "1 Tessalonicenses",
+      "2 Timoteo",
+      "Hebreus"
+    ],
+    "explanation": "Sobre a vinda de Cristo.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala de Timoteo?",
+    "correct_answer": "1 e 2 Timoteo",
+    "wrong_answers": [
+      "Tito",
+      "Filemom",
+      "Filipenses"
+    ],
+    "explanation": "Paulo a seu filho na fe.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala de Tito?",
+    "correct_answer": "Tito",
+    "wrong_answers": [
+      "Timoteo",
+      "Filemom",
+      "Filipenses"
+    ],
+    "explanation": "Paulo a Tito em Creta.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta fala da justificacao?",
+    "correct_answer": "Romanos",
+    "wrong_answers": [
+      "Galatas",
+      "Hebreus",
+      "Tiago"
+    ],
+    "explanation": "Justificados pela fe.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual carta defende o evangelho da graca?",
+    "correct_answer": "Galatas",
+    "wrong_answers": [
+      "Romanos",
+      "Hebreus",
+      "Tiago"
+    ],
+    "explanation": "Contra os judaizantes.",
+    "category": "cartas"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de criacao?",
+    "correct_answer": "Genesis",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Genesis aborda criacao.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de libertacao?",
+    "correct_answer": "Exodo",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Exodo aborda libertacao.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de sacrificios?",
+    "correct_answer": "Levitico",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Levitico aborda sacrificios.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de deserto?",
+    "correct_answer": "Numeros",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Numeros aborda deserto.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de lei?",
+    "correct_answer": "Deuteronomio",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Deuteronomio aborda lei.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de conquista?",
+    "correct_answer": "Josue",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Josue aborda conquista.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de rei Saul?",
+    "correct_answer": "1 Samuel",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "1 Samuel aborda rei Saul.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de rei Davi?",
+    "correct_answer": "2 Samuel",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "2 Samuel aborda rei Davi.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de Salomao?",
+    "correct_answer": "1 Reis",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "1 Reis aborda Salomao.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de reino dividido?",
+    "correct_answer": "2 Reis",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "2 Reis aborda reino dividido.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de retorno?",
+    "correct_answer": "Esdras",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Esdras aborda retorno.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de muros?",
+    "correct_answer": "Neemias",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Neemias aborda muros.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de rainha?",
+    "correct_answer": "Ester",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Ester aborda rainha.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de sofrimento?",
+    "correct_answer": "Job",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Job aborda sofrimento.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de louvor?",
+    "correct_answer": "Salmos",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Salmos aborda louvor.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de sabedoria?",
+    "correct_answer": "Proverbios",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Proverbios aborda sabedoria.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de Messias?",
+    "correct_answer": "Isaias",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Isaias aborda Messias.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de exilio?",
+    "correct_answer": "Jeremias",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Jeremias aborda exilio.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de visoes?",
+    "correct_answer": "Ezequiel",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Ezequiel aborda visoes.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de reinados?",
+    "correct_answer": "Daniel",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Daniel aborda reinados.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de amor?",
+    "correct_answer": "Oseias",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Oseias aborda amor.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de Dia do Senhor?",
+    "correct_answer": "Joel",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Joel aborda Dia do Senhor.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de justica?",
+    "correct_answer": "Amos",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Amos aborda justica.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de Ninive?",
+    "correct_answer": "Jonas",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Jonas aborda Ninive.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro fala de Belem?",
+    "correct_answer": "Miqueias",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Miqueias aborda Belem.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de Reino?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Mateus aborda Reino.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de servico?",
+    "correct_answer": "Marcos",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Marcos aborda servico.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de Salvador?",
+    "correct_answer": "Lucas",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Lucas aborda Salvador.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de Vida?",
+    "correct_answer": "Joao",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Joao aborda Vida.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de Espirito?",
+    "correct_answer": "Atos",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Atos aborda Espirito.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de justificacao?",
+    "correct_answer": "Romanos",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Romanos aborda justificacao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de amor?",
+    "correct_answer": "1 Corintios",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "1 Corintios aborda amor.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de liberdade?",
+    "correct_answer": "Galatas",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Galatas aborda liberdade.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de unidade?",
+    "correct_answer": "Efesios",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Efesios aborda unidade.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de alegria?",
+    "correct_answer": "Filipenses",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Filipenses aborda alegria.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de preeminencia?",
+    "correct_answer": "Colossenses",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Colossenses aborda preeminencia.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de vinda?",
+    "correct_answer": "1 Tessalonicenses",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "1 Tessalonicenses aborda vinda.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de fe?",
+    "correct_answer": "Hebreus",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Hebreus aborda fe.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de obras?",
+    "correct_answer": "Tiago",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Tiago aborda obras.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de esperanca?",
+    "correct_answer": "1 Pedro",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "1 Pedro aborda esperanca.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de amor?",
+    "correct_answer": "1 Joao",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "1 Joao aborda amor.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro do NT fala de revelacao?",
+    "correct_answer": "Apocalipse",
+    "wrong_answers": [
+      "Outro",
+      "Nenhum",
+      "Varios"
+    ],
+    "explanation": "Apocalipse aborda revelacao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Adao?",
+    "correct_answer": "primeiro homem",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Adao - primeiro homem.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Eva?",
+    "correct_answer": "primeira mulher",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Eva - primeira mulher.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Noe?",
+    "correct_answer": "arca",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Noe - arca.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Abraao?",
+    "correct_answer": "fe",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Abraao - fe.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Sara?",
+    "correct_answer": "riso",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Sara - riso.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Isaque?",
+    "correct_answer": "sacrifício",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Isaque - sacrifício.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Rebeca?",
+    "correct_answer": "poços",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Rebeca - poços.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Jacó?",
+    "correct_answer": "Israel",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Jacó - Israel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Raquel?",
+    "correct_answer": "amada",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Raquel - amada.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Jose?",
+    "correct_answer": "Egito",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Jose - Egito.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Moisés?",
+    "correct_answer": "lei",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Moisés - lei.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Aarão?",
+    "correct_answer": "sacerdote",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Aarão - sacerdote.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Josue?",
+    "correct_answer": "Canaa",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Josue - Canaa.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Davi?",
+    "correct_answer": "rei",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Davi - rei.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Salomao?",
+    "correct_answer": "templo",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Salomao - templo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Elias?",
+    "correct_answer": "fogo",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Elias - fogo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Eliseu?",
+    "correct_answer": "manto",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Eliseu - manto.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Isaias?",
+    "correct_answer": "profeta",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Isaias - profeta.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Jeremias?",
+    "correct_answer": "chorão",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Jeremias - chorão.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Daniel?",
+    "correct_answer": "leoes",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Daniel - leoes.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Joao Batista?",
+    "correct_answer": "precursor",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Joao Batista - precursor.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Pedro?",
+    "correct_answer": "pedra",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Pedro - pedra.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Paulo?",
+    "correct_answer": "apostolo",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Paulo - apostolo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Maria?",
+    "correct_answer": "mae",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Maria - mae.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Deus amou o mundo'?",
+    "correct_answer": "Jo 3:16",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Jo 3:16.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'No principio'?",
+    "correct_answer": "Gn 1:1",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Gn 1:1.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'O Senhor e meu pastor'?",
+    "correct_answer": "Sl 23:1",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Sl 23:1.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Todas as coisas cooperam'?",
+    "correct_answer": "Rm 8:28",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Rm 8:28.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Posso todas as coisas'?",
+    "correct_answer": "Fp 4:13",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Fp 4:13.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Confia no Senhor'?",
+    "correct_answer": "Pv 3:5",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Pv 3:5.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Lampada para os pes'?",
+    "correct_answer": "Sl 119:105",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Sl 119:105.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Renovam as forcas'?",
+    "correct_answer": "Is 40:31",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Is 40:31.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Planos de paz'?",
+    "correct_answer": "Jr 29:11",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Em varios"
+    ],
+    "explanation": "Encontrado em Jr 29:11.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos leprosos Jesus curou e só um voltou?",
+    "correct_answer": "10",
+    "wrong_answers": [
+      "7",
+      "12",
+      "5"
+    ],
+    "explanation": "Um samaritano voltou.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual cego Jesus curou com lodo?",
+    "correct_answer": "O de nascenca",
+    "wrong_answers": [
+      "Bartimeu",
+      "Simao",
+      "Lazaro"
+    ],
+    "explanation": "Joao 9.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem Jesus ressuscitou da filha de Jairo?",
+    "correct_answer": "Filha de 12 anos",
+    "wrong_answers": [
+      "Lazaro",
+      "viuva",
+      "Lázaro"
+    ],
+    "explanation": "Mc 5.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual paralitico foi baixado pelo teto?",
+    "correct_answer": "O de Cafarnaum",
+    "wrong_answers": [
+      "Betesda",
+      "Gerasenos",
+      "Naim"
+    ],
+    "explanation": "Mc 2.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas cesta sobraram na multiplicacao dos 5000?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "5",
+      "7",
+      "10"
+    ],
+    "explanation": "Doze cestos de pedacos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos leprosos Naama curou Eliseu?",
+    "correct_answer": "1",
+    "wrong_answers": [
+      "7",
+      "10",
+      "0"
+    ],
+    "explanation": "Naama se banhou 7 vezes.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem Eliseu ressuscitou?",
+    "correct_answer": "Filho da sunamita",
+    "wrong_answers": [
+      "Lazaro",
+      "Dorcas",
+      "Jairo"
+    ],
+    "explanation": "2 Reis 4.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem Pedro ressuscitou?",
+    "correct_answer": "Tabita/Dorcas",
+    "wrong_answers": [
+      "Lazaro",
+      "Eutico",
+      "Filha de Jairo"
+    ],
+    "explanation": "Atos 9.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem Paulo ressuscitou?",
+    "correct_answer": "Eutico",
+    "wrong_answers": [
+      "Lazaro",
+      "Tabita",
+      "Filha de Jairo"
+    ],
+    "explanation": "Atos 20.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos pes Jesus lavou na ultima ceia?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "11",
+      "13",
+      "70"
+    ],
+    "explanation": "A todos os discipulos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Jesus orou antes da prisao?",
+    "correct_answer": "Getsemani",
+    "wrong_answers": [
+      "Betania",
+      "Templo",
+      "Monte Sinai"
+    ],
+    "explanation": "Jardim do Getsemani.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem cortou a orelha do servo?",
+    "correct_answer": "Pedro",
+    "wrong_answers": [
+      "Joao",
+      "Judas",
+      "Tiago"
+    ],
+    "explanation": "Malco, servo do sumo sacerdote.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem curou a orelha cortada?",
+    "correct_answer": "Jesus",
+    "wrong_answers": [
+      "Joao",
+      "Pedro",
+      "Ninguem"
+    ],
+    "explanation": "Jesus tocou e sarou.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo cortou a orelha?",
+    "correct_answer": "Pedro",
+    "wrong_answers": [
+      "Joao",
+      "Judas",
+      "Tomas"
+    ],
+    "explanation": "Com uma espada.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos assaltantes foram crucificados com Jesus?",
+    "correct_answer": "2",
+    "wrong_answers": [
+      "1",
+      "3",
+      "4"
+    ],
+    "explanation": "Um a direita, um a esquerda.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual ladrao se arrependeu na cruz?",
+    "correct_answer": "O da direita",
+    "wrong_answers": [
+      "O da esquerda",
+      "Ambos",
+      "Nenhum"
+    ],
+    "explanation": "Hoje estarás comigo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem disse 'Verdadeiramente este era o Filho de Deus'?",
+    "correct_answer": "Centuriao",
+    "wrong_answers": [
+      "Pilatos",
+      "Herodes",
+      "Caifas"
+    ],
+    "explanation": "Ao ver a morte de Jesus.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi o sumo sacerdote no julgamento de Jesus?",
+    "correct_answer": "Caifas",
+    "wrong_answers": [
+      "Annas",
+      "Pilatos",
+      "Herodes"
+    ],
+    "explanation": "Caifas interrogou Jesus.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual animal substituiu Isaque?",
+    "correct_answer": "Carneiro",
+    "wrong_answers": [
+      "Cordeiro",
+      "Bezerro",
+      "Bode"
+    ],
+    "explanation": "Agarrado pelos chifres.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual irmao de Jose foi deixado no Egito?",
+    "correct_answer": "Simeao",
+    "wrong_answers": [
+      "Benjamin",
+      "Ruben",
+      "Judá"
+    ],
+    "explanation": "Como garantia.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos irmaos Jose tinha?",
+    "correct_answer": "11",
+    "wrong_answers": [
+      "10",
+      "12",
+      "9"
+    ],
+    "explanation": "Jacó tinha 12 filhos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual filho de Jacó nao era irmao de sangue?",
+    "correct_answer": "Benjamin",
+    "wrong_answers": [
+      "Jose",
+      "Ruben",
+      "Judá"
+    ],
+    "explanation": "Benjamin era irmao completo de Jose.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos anos tinha Josue quando morreu?",
+    "correct_answer": "110",
+    "wrong_answers": [
+      "120",
+      "100",
+      [
+        "99",
+        "80"
+      ]
+    ],
+    "explanation": "Josue 24:29.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos anos tinha Caleb quando conquistou Hebrom?",
+    "correct_answer": "85",
+    "wrong_answers": [
+      "40",
+      "80",
+      "90"
+    ],
+    "explanation": "Josue 14:10.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos anos Davi reinou?",
+    "correct_answer": "40",
+    "wrong_answers": [
+      "30",
+      "50",
+      "7"
+    ],
+    "explanation": "7 em Hebrom, 33 em Jerusalem.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos anos Salomao reinou?",
+    "correct_answer": "40",
+    "wrong_answers": [
+      "30",
+      "50",
+      "20"
+    ],
+    "explanation": "1 Reis 11:42.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos provverbios Salomao escreveu?",
+    "correct_answer": "cerca de 3000",
+    "wrong_answers": [
+      "1000",
+      "1500",
+      "500"
+    ],
+    "explanation": "1 Reis 4:32.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos cantares Salomao escreveu?",
+    "correct_answer": "1005",
+    "wrong_answers": [
+      "150",
+      "500",
+      "1000"
+    ],
+    "explanation": "1 Reis 4:32.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas esposas Salomao teve?",
+    "correct_answer": "700",
+    "wrong_answers": [
+      "300",
+      "1000",
+      "100"
+    ],
+    "explanation": "Mais 300 concubinas.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos capítulos tem o maior livro?",
+    "correct_answer": "150",
+    "wrong_answers": [
+      "144",
+      "120",
+      "100"
+    ],
+    "explanation": "Salmos tem 150 capitulos.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o menor livro do NT em versiculos?",
+    "correct_answer": "2 Joao",
+    "wrong_answers": [
+      "3 Joao",
+      "Judas",
+      "Filemom"
+    ],
+    "explanation": "13 versiculos.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o menor livro do AT?",
+    "correct_answer": "Obadias",
+    "wrong_answers": [
+      "Naum",
+      "Habacuque",
+      "Ageu"
+    ],
+    "explanation": "21 versiculos.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo negou?",
+    "correct_answer": "Pedro",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Pedro - negou.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo irmao de Pedro?",
+    "correct_answer": "Andre",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Andre - irmao de Pedro.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo filho de Zebedeu?",
+    "correct_answer": "Tiago Maior",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Tiago Maior - filho de Zebedeu.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo discipulo amado?",
+    "correct_answer": "Joao",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Joao - discipulo amado.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo Nazare?",
+    "correct_answer": "Filipe",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Filipe - Nazare.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo Natanael?",
+    "correct_answer": "Bartolomeu",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Bartolomeu - Natanael.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo duvidou?",
+    "correct_answer": "Tomas",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Tomas - duvidou.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo Levi?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Mateus - Levi.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo filho de Alfeu?",
+    "correct_answer": "Tiago Menor",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Tiago Menor - filho de Alfeu.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo Judas Tadeu?",
+    "correct_answer": "Tadeu",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Tadeu - Judas Tadeu.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo Zelote?",
+    "correct_answer": "Simao",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Simao - Zelote.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo Iscariotes?",
+    "correct_answer": "Judas",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Judas - Iscariotes.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de sangue?",
+    "correct_answer": "rio",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: sangue.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de ras?",
+    "correct_answer": "Egito",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: ras.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de piolhos?",
+    "correct_answer": "terra",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: piolhos.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de moscas?",
+    "correct_answer": "casas",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: moscas.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de peste?",
+    "correct_answer": "animais",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: peste.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de ulceras?",
+    "correct_answer": "homens",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: ulceras.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de saraiva?",
+    "correct_answer": "ceu",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: saraiva.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de gafanhotos?",
+    "correct_answer": "campo",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: gafanhotos.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de trevas?",
+    "correct_answer": "3 dias",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: trevas.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a praga de primogenitos?",
+    "correct_answer": "morte",
+    "wrong_answers": [
+      "Outra",
+      "Nenhuma",
+      "Diferente"
+    ],
+    "explanation": "Praga: primogenitos.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: agua em vinho - onde?",
+    "correct_answer": "Cana",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em Cana.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: pescaria - onde?",
+    "correct_answer": "mar",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em mar.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: curado - onde?",
+    "correct_answer": "filho oficial",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em filho oficial.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: demonio - onde?",
+    "correct_answer": "Cafarnaum",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em Cafarnaum.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: sogra - onde?",
+    "correct_answer": "Pedro",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em Pedro.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: leproso - onde?",
+    "correct_answer": "tocado",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em tocado.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: paralitico - onde?",
+    "correct_answer": "teto",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em teto.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: mao - onde?",
+    "correct_answer": "sabado",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em sabado.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: servo - onde?",
+    "correct_answer": "centuriao",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em centuriao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: tempestade - onde?",
+    "correct_answer": "acalmada",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em acalmada.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: demonios - onde?",
+    "correct_answer": "Gerasenos",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em Gerasenos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: mulher - onde?",
+    "correct_answer": "fluxo",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em fluxo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Milagre: menina - onde?",
+    "correct_answer": "12 anos",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Varios"
+    ],
+    "explanation": "Jesus fez em 12 anos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do semeador?",
+    "correct_answer": "Marcos 4",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Marcos 4.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do joio?",
+    "correct_answer": "Mateus 13",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Mateus 13.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do mostarda?",
+    "correct_answer": "Mateus 13",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Mateus 13.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do tesouro?",
+    "correct_answer": "Mateus 13",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Mateus 13.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do perola?",
+    "correct_answer": "Mateus 13",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Mateus 13.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do ovelha perdida?",
+    "correct_answer": "Lucas 15",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Lucas 15.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do dracma?",
+    "correct_answer": "Lucas 15",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Lucas 15.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do filho prodigo?",
+    "correct_answer": "Lucas 15",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Lucas 15.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do bom samaritano?",
+    "correct_answer": "Lucas 10",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Lucas 10.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do rico e Lazaro?",
+    "correct_answer": "Lucas 16",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Lucas 16.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta a parabola do fariseu e publicano?",
+    "correct_answer": "Lucas 18",
+    "wrong_answers": [
+      "Outro",
+      "Joao",
+      "Marcos"
+    ],
+    "explanation": "Lucas 18.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: dias da criacao?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "6",
+      "8",
+      "3"
+    ],
+    "explanation": "Resposta: 7.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: dias no deserto Jesus?",
+    "correct_answer": "40",
+    "wrong_answers": [
+      "39",
+      "41",
+      "20"
+    ],
+    "explanation": "Resposta: 40.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: anos Israel no deserto?",
+    "correct_answer": "40",
+    "wrong_answers": [
+      "39",
+      "41",
+      "20"
+    ],
+    "explanation": "Resposta: 40.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: tribos de Israel?",
+    "correct_answer": "12",
+    "wrong_answers": [
+      "11",
+      "13",
+      "6"
+    ],
+    "explanation": "Resposta: 12.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: mandamentos?",
+    "correct_answer": "10",
+    "wrong_answers": [
+      "9",
+      "11",
+      "5"
+    ],
+    "explanation": "Resposta: 10.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: pragas do Egito?",
+    "correct_answer": "10",
+    "wrong_answers": [
+      "9",
+      "11",
+      "5"
+    ],
+    "explanation": "Resposta: 10.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: igrejas Apocalipse?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "6",
+      "8",
+      "3"
+    ],
+    "explanation": "Resposta: 7.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: selos Apocalipse?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "6",
+      "8",
+      "3"
+    ],
+    "explanation": "Resposta: 7.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: trombetas Apocalipse?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "6",
+      "8",
+      "3"
+    ],
+    "explanation": "Resposta: 7.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: taças Apocalipse?",
+    "correct_answer": "7",
+    "wrong_answers": [
+      "6",
+      "8",
+      "3"
+    ],
+    "explanation": "Resposta: 7.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: selados Apocalipse?",
+    "correct_answer": "144000",
+    "wrong_answers": [
+      "143999",
+      "144001",
+      "72000"
+    ],
+    "explanation": "Resposta: 144000.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: anos milenio?",
+    "correct_answer": "1000",
+    "wrong_answers": [
+      "999",
+      "1001",
+      "500"
+    ],
+    "explanation": "Resposta: 1000.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: dias Jonas no peixe?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "2",
+      "4",
+      "1"
+    ],
+    "explanation": "Resposta: 3.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: dias Jesus no tumulo?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "2",
+      "4",
+      "1"
+    ],
+    "explanation": "Resposta: 3.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: dias Pentecostes?",
+    "correct_answer": "50",
+    "wrong_answers": [
+      "49",
+      "51",
+      "25"
+    ],
+    "explanation": "Resposta: 50.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: no cenaculo?",
+    "correct_answer": "120",
+    "wrong_answers": [
+      "119",
+      "121",
+      "60"
+    ],
+    "explanation": "Resposta: 120.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: convertidos Pentecostes?",
+    "correct_answer": "3000",
+    "wrong_answers": [
+      "2999",
+      "3001",
+      "1500"
+    ],
+    "explanation": "Resposta: 3000.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: discipulos enviados?",
+    "correct_answer": "70",
+    "wrong_answers": [
+      "69",
+      "71",
+      "35"
+    ],
+    "explanation": "Resposta: 70.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: peixes na rede?",
+    "correct_answer": "153",
+    "wrong_answers": [
+      "152",
+      "154",
+      "76"
+    ],
+    "explanation": "Resposta: 153.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o numero em: moedas de Judas?",
+    "correct_answer": "30",
+    "wrong_answers": [
+      "29",
+      "31",
+      "15"
+    ],
+    "explanation": "Resposta: 30.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Caim?",
+    "correct_answer": "matou Abel",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Caim: matou Abel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Abel?",
+    "correct_answer": "ofereceu cordeiro",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Abel: ofereceu cordeiro.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Enoque?",
+    "correct_answer": "andou com Deus",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Enoque: andou com Deus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Melquisedeque?",
+    "correct_answer": "rei de Salem",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Melquisedeque: rei de Salem.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Ló?",
+    "correct_answer": "Sodoma",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Ló: Sodoma.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Ismael?",
+    "correct_answer": "filho de Agar",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Ismael: filho de Agar.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Esaú?",
+    "correct_answer": "vendeu primogenitura",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Esaú: vendeu primogenitura.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Labão?",
+    "correct_answer": "pai de Raquel",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Labão: pai de Raquel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Raquel?",
+    "correct_answer": "amada de Jacó",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Raquel: amada de Jacó.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Lea?",
+    "correct_answer": "primeira esposa Jacó",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Lea: primeira esposa Jacó.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Benjamin?",
+    "correct_answer": "filho da dor",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Benjamin: filho da dor.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Ruben?",
+    "correct_answer": "primogenito",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Ruben: primogenito.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Miriã?",
+    "correct_answer": "irma de Moises",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Miriã: irma de Moises.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Jetró?",
+    "correct_answer": "sogro Moises",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Jetró: sogro Moises.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Calebe?",
+    "correct_answer": "espia fiel",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Calebe: espia fiel.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Raabe?",
+    "correct_answer": "escondeu espias",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Raabe: escondeu espias.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Acã?",
+    "correct_answer": "pecado em Jerico",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Acã: pecado em Jerico.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Débora?",
+    "correct_answer": "juiza",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Débora: juiza.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Gideão?",
+    "correct_answer": "300 soldados",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Gideão: 300 soldados.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Sansão?",
+    "correct_answer": "cabelos longos",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Sansão: cabelos longos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Samuel?",
+    "correct_answer": "menino no tabernaculo",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Samuel: menino no tabernaculo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Saul?",
+    "correct_answer": "primeiro rei",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Saul: primeiro rei.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Bateseba?",
+    "correct_answer": "adulterio",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Bateseba: adulterio.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Urias?",
+    "correct_answer": "hitita",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Urias: hitita.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Absalão?",
+    "correct_answer": "rebelou contra Davi",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Absalão: rebelou contra Davi.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Natã?",
+    "correct_answer": "profeta a Davi",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Natã: profeta a Davi.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Simeão?",
+    "correct_answer": "esperava Consolador",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Simeão: esperava Consolador.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Ana?",
+    "correct_answer": "profetisa",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Ana: profetisa.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Zacarias?",
+    "correct_answer": "pai Joao Batista",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Zacarias: pai Joao Batista.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Isabel?",
+    "correct_answer": "mae Joao Batista",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Isabel: mae Joao Batista.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Nicodemos?",
+    "correct_answer": "visitou a noite",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Nicodemos: visitou a noite.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Maria Madalena?",
+    "correct_answer": "primeira a ver",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Maria Madalena: primeira a ver.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Marta?",
+    "correct_answer": "irma de Lazaro",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Marta: irma de Lazaro.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Lázaro?",
+    "correct_answer": "ressuscitou",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Lázaro: ressuscitou.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Bartimeu?",
+    "correct_answer": "cego curado",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Bartimeu: cego curado.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Zaqueu?",
+    "correct_answer": "subiu em arvore",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Zaqueu: subiu em arvore.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Cornélio?",
+    "correct_answer": "centuriao",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Cornélio: centuriao.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Lidio?",
+    "correct_answer": "vendedor de purpura",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Lidio: vendedor de purpura.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Barnabé?",
+    "correct_answer": "vendeu propriedade",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Barnabé: vendeu propriedade.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Timoteo?",
+    "correct_answer": "filho na fe",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Timoteo: filho na fe.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Tito?",
+    "correct_answer": "em Creta",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Tito: em Creta.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Onesimo?",
+    "correct_answer": "escravo fugitivo",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Onesimo: escravo fugitivo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Filipe?",
+    "correct_answer": "evangelista",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Filipe: evangelista.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem foi Estevão?",
+    "correct_answer": "primeiro martir",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Ninguem"
+    ],
+    "explanation": "Estevão: primeiro martir.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: nascimento Jesus?",
+    "correct_answer": "Belém",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Belém: nascimento Jesus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: criacao Jesus?",
+    "correct_answer": "Nazare",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Nazare: criacao Jesus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: templo?",
+    "correct_answer": "Jerusalem",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Jerusalem: templo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: batismo?",
+    "correct_answer": "Jordao",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Jordao: batismo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: ministerio Jesus?",
+    "correct_answer": "Galileia",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Galileia: ministerio Jesus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: mulher no poco?",
+    "correct_answer": "Samaria",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Samaria: mulher no poco.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: muros caíram?",
+    "correct_answer": "Jerico",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Jerico: muros caíram.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: Lazaro?",
+    "correct_answer": "Betania",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Betania: Lazaro.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: oracao Jesus?",
+    "correct_answer": "Getsemani",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Getsemani: oracao Jesus.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: cruz?",
+    "correct_answer": "Golgota",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Golgota: cruz.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: conversao Paulo?",
+    "correct_answer": "Damascus",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Damascus: conversao Paulo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: cristaos?",
+    "correct_answer": "Antioquia",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Antioquia: cristaos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: Paulo preso?",
+    "correct_answer": "Roma",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Roma: Paulo preso.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: Apocalipse?",
+    "correct_answer": "Patmos",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Patmos: Apocalipse.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: dez mandamentos?",
+    "correct_answer": "Sinai",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Sinai: dez mandamentos.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: terra prometida?",
+    "correct_answer": "Canaa",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Canaa: terra prometida.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: exilio?",
+    "correct_answer": "Babilonia",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Babilonia: exilio.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: Jose?",
+    "correct_answer": "Egito",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Egito: Jose.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: Jonas?",
+    "correct_answer": "Ninive",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Ninive: Jonas.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Onde ocorreu: Jonas fugiu?",
+    "correct_answer": "Tarsis",
+    "wrong_answers": [
+      "Outro",
+      "Desconhecido",
+      "Nenhum"
+    ],
+    "explanation": "Tarsis: Jonas fugiu.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na transfiguracao?",
+    "correct_answer": "Monte",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: transfiguracao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na multiplicacao?",
+    "correct_answer": "pães",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: multiplicacao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na tempestade?",
+    "correct_answer": "acalmada",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: tempestade.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na andou aguas?",
+    "correct_answer": "Pedro",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: andou aguas.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na cegueira?",
+    "correct_answer": "Saulo",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: cegueira.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na Pentecostes?",
+    "correct_answer": "linguas",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: Pentecostes.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na concilio?",
+    "correct_answer": "Jerusalem",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: concilio.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "O que aconteceu na viagem?",
+    "correct_answer": "Paulo",
+    "wrong_answers": [
+      "Outro",
+      "Nada",
+      "Diferente"
+    ],
+    "explanation": "Evento: viagem.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa Emanuel?",
+    "correct_answer": "Deus conosco",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Diferente"
+    ],
+    "explanation": "Emanuel = Deus conosco.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa Jesus?",
+    "correct_answer": "Salvador",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Diferente"
+    ],
+    "explanation": "Jesus = Salvador.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa Cristo?",
+    "correct_answer": "Ungido",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Diferente"
+    ],
+    "explanation": "Cristo = Ungido.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa Logos?",
+    "correct_answer": "Verbo",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Diferente"
+    ],
+    "explanation": "Logos = Verbo.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa Espirito Santo?",
+    "correct_answer": "Consolador",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Diferente"
+    ],
+    "explanation": "Espirito Santo = Consolador.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa Pai?",
+    "correct_answer": "Abba",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Diferente"
+    ],
+    "explanation": "Pai = Abba.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "O que significa Alfa e Omega?",
+    "correct_answer": "principio e fim",
+    "wrong_answers": [
+      "Outro",
+      "Nao sei",
+      "Diferente"
+    ],
+    "explanation": "Alfa e Omega = principio e fim.",
+    "category": "geral"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros Moises escreveu?",
+    "correct_answer": "5",
+    "wrong_answers": [
+      "4",
+      "6",
+      "7"
+    ],
+    "explanation": "O Pentateuco.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro vem depois de Genesis?",
+    "correct_answer": "Exodo",
+    "wrong_answers": [
+      "Levitico",
+      "Numeros",
+      "Josue"
+    ],
+    "explanation": "Exodo continua a historia.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o ultimo livro do AT?",
+    "correct_answer": "Malaquias",
+    "wrong_answers": [
+      "Zacarias",
+      "Ageu",
+      "Esdras"
+    ],
+    "explanation": "Malaquias encerra o AT.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual o primeiro livro do NT?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Marcos",
+      "Lucas",
+      "Joao"
+    ],
+    "explanation": "Mateus e o primeiro evangelho.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas cartas Joao escreveu?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "1",
+      "2",
+      "4"
+    ],
+    "explanation": "1, 2 e 3 Joao.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas cartas Pedro escreveu?",
+    "correct_answer": "2",
+    "wrong_answers": [
+      "1",
+      "3",
+      "4"
+    ],
+    "explanation": "1 e 2 Pedro.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era publicano?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Pedro",
+      "Joao",
+      "Andre"
+    ],
+    "explanation": "Mateus/Levi.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era irmão de Pedro?",
+    "correct_answer": "Andre",
+    "wrong_answers": [
+      "Joao",
+      "Tiago",
+      "Filipe"
+    ],
+    "explanation": "Andre era irmao de Pedro.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era irmão de Joao?",
+    "correct_answer": "Tiago",
+    "wrong_answers": [
+      "Pedro",
+      "Andre",
+      "Mateus"
+    ],
+    "explanation": "Tiago Maior.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo levou Jesus a Filipe?",
+    "correct_answer": "Andre",
+    "wrong_answers": [
+      "Pedro",
+      "Joao",
+      "Mateus"
+    ],
+    "explanation": "Andre encontrou o menino.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual discipulo era chamado Natanael?",
+    "correct_answer": "Bartolomeu",
+    "wrong_answers": [
+      "Filipe",
+      "Tomas",
+      "Mateus"
+    ],
+    "explanation": "Bartolomeu = Natanael.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era gemeo?",
+    "correct_answer": "Tomas",
+    "wrong_answers": [
+      "Mateus",
+      "Tiago",
+      "Simao"
+    ],
+    "explanation": "Dídimo = gemeo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era cobrador de impostos?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Judas",
+      "Simao",
+      "Tadeu"
+    ],
+    "explanation": "Mateus = Levi.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era zelote?",
+    "correct_answer": "Simao",
+    "wrong_answers": [
+      "Judas",
+      "Mateus",
+      "Tomas"
+    ],
+    "explanation": "Simao o Zelote.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual apostolo era Judas Tadeu?",
+    "correct_answer": "Tadeu",
+    "wrong_answers": [
+      "Judas Iscariotes",
+      "Simao",
+      "Mateus"
+    ],
+    "explanation": "Judas, nao Iscariotes.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos livros Joao escreveu?",
+    "correct_answer": "5",
+    "wrong_answers": [
+      "3",
+      "4",
+      "6"
+    ],
+    "explanation": "Joao, 1-3 Joao, Apocalipse.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho foi escrito por um medico?",
+    "correct_answer": "Lucas",
+    "wrong_answers": [
+      "Mateus",
+      "Marcos",
+      "Joao"
+    ],
+    "explanation": "Lucas era medico.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho enfatiza Jesus como Rei?",
+    "correct_answer": "Mateus",
+    "wrong_answers": [
+      "Marcos",
+      "Lucas",
+      "Joao"
+    ],
+    "explanation": "Genealogia real.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho enfatiza Jesus como Servo?",
+    "correct_answer": "Marcos",
+    "wrong_answers": [
+      "Mateus",
+      "Lucas",
+      "Joao"
+    ],
+    "explanation": "Rapido e direto.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho enfatiza Jesus como Homem?",
+    "correct_answer": "Lucas",
+    "wrong_answers": [
+      "Mateus",
+      "Marcos",
+      "Joao"
+    ],
+    "explanation": "Genealogia humana.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual evangelho enfatiza Jesus como Deus?",
+    "correct_answer": "Joao",
+    "wrong_answers": [
+      "Mateus",
+      "Marcos",
+      "Lucas"
+    ],
+    "explanation": "No principio era o Verbo.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro tem 31 capitulos?",
+    "correct_answer": "Proverbios",
+    "wrong_answers": [
+      "Eclesiastes",
+      "Job",
+      "Cantares"
+    ],
+    "explanation": "Um capitulo por dia.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual Salmo e acrostico?",
+    "correct_answer": "119",
+    "wrong_answers": [
+      "1",
+      "23",
+      "91"
+    ],
+    "explanation": "Cada secao com uma letra.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas letras tem o alfabeto hebraico?",
+    "correct_answer": "22",
+    "wrong_answers": [
+      "24",
+      "26",
+      "20"
+    ],
+    "explanation": "22 letras.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Qual livro cita 'Vaidade de vaidades'?",
+    "correct_answer": "Eclesiastes",
+    "wrong_answers": [
+      "Job",
+      "Proverbios",
+      "Cantares"
+    ],
+    "explanation": "Ec 1:2.",
+    "category": "antigo_testamento"
+  },
+  {
+    "difficulty_level": "advanced",
+    "question_type": "multiple_choice",
+    "question_text": "Onde esta 'Mais bem-aventurado e dar que receber'?",
+    "correct_answer": "Atos 20:35",
+    "wrong_answers": [
+      "Lucas 6",
+      "Mateus 5",
+      "Joao 13"
+    ],
+    "explanation": "Palavras de Jesus em Atos.",
+    "category": "novo_testamento"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual animal apareceu a Eva?",
+    "correct_answer": "Serpente",
+    "wrong_answers": [
+      "Diabo",
+      "Anjo",
+      "Homem"
+    ],
+    "explanation": "A serpente enganou Eva.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual fruto Eva comeu?",
+    "correct_answer": "Fruto da arvore",
+    "wrong_answers": [
+      "Maca",
+      "Uva",
+      "Figo"
+    ],
+    "explanation": "A Biblia nao especifica.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos pares de animais Noe levou?",
+    "correct_answer": "7 limpos, 2 impuros",
+    "wrong_answers": [
+      "1 de cada",
+      "2 de cada",
+      "3 de cada"
+    ],
+    "explanation": "Gen 7:2.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual montanha a arca parou?",
+    "correct_answer": "Ararate",
+    "wrong_answers": [
+      "Sinai",
+      "Hermom",
+      "Carmelo"
+    ],
+    "explanation": "Montanhas de Ararate.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual corvo Noe soltou primeiro?",
+    "correct_answer": "Nao nomeado",
+    "wrong_answers": [
+      "Um",
+      "Dois",
+      "Nenhum"
+    ],
+    "explanation": "O corvo nao voltou.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual pomba voltou com ramo?",
+    "correct_answer": "Segunda vez",
+    "wrong_answers": [
+      "Primeira",
+      "Terceira",
+      "Nunca"
+    ],
+    "explanation": "Pomba com folha de oliveira.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem matou Abel?",
+    "correct_answer": "Caim",
+    "wrong_answers": [
+      "Satanas",
+      "Adao",
+      "Eva"
+    ],
+    "explanation": "Caim por inveja.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos filhos tinha Noe?",
+    "correct_answer": "3",
+    "wrong_answers": [
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "Sem, Cam e Jafé.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual filho de Noe foi amaldicoado?",
+    "correct_answer": "Cam",
+    "wrong_answers": [
+      "Sem",
+      "Jafé",
+      "Canaã"
+    ],
+    "explanation": "Cam viu a nudez do pai.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual a terra prometida?",
+    "correct_answer": "Canaa",
+    "wrong_answers": [
+      "Egito",
+      "Babilonia",
+      "Assiria"
+    ],
+    "explanation": "Terra de Canaã.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas cidades foram destruidas em Sodoma?",
+    "correct_answer": "5",
+    "wrong_answers": [
+      "2",
+      "3",
+      "10"
+    ],
+    "explanation": "Sodoma, Gomorra e outras.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quem salvou Ló de Sodoma?",
+    "correct_answer": "Anjos",
+    "wrong_answers": [
+      "Abraao",
+      "Noe",
+      "Melquisedeque"
+    ],
+    "explanation": "Dois anjos tiraram Ló.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Qual mulher virou estatua de sal?",
+    "correct_answer": "Mulher de Ló",
+    "wrong_answers": [
+      "Eva",
+      "Sara",
+      "Rebeca"
+    ],
+    "explanation": "Olhou para tras.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas esposas Abraao teve?",
+    "correct_answer": "2 principais",
+    "wrong_answers": [
+      "1",
+      "3",
+      "4"
+    ],
+    "explanation": "Sara e Quetura.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quem era o filho de Abraao com Agar?",
+    "correct_answer": "Ismael",
+    "wrong_answers": [
+      "Isaque",
+      "Esaú",
+      "Jacó"
+    ],
+    "explanation": "Filho da serva.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Onde Isaque foi sacrificado?",
+    "correct_answer": "Monte Moria",
+    "wrong_answers": [
+      "Monte Sinai",
+      "Monte Nebo",
+      "Monte Carmelo"
+    ],
+    "explanation": "Onde depois seria o templo.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Quantos anos Sara tinha quando Isaque nasceu?",
+    "correct_answer": "90",
+    "wrong_answers": [
+      "80",
+      "100",
+      "75"
+    ],
+    "explanation": "Sara riu da promessa.",
+    "category": "historia"
+  },
+  {
+    "difficulty_level": "beginner",
+    "question_type": "multiple_choice",
+    "question_text": "Quantas pragas cairam no Egito?",
+    "correct_answer": "10",
+    "wrong_answers": [
+      "7",
+      "12",
+      "3"
+    ],
+    "explanation": "Dez pragas antes do Exodo.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual mandamento honra pai e mae?",
+    "correct_answer": "Quinto",
+    "wrong_answers": [
+      "Quarto",
+      "Sexto",
+      "Decimo"
+    ],
+    "explanation": "Honra teu pai e tua mae.",
+    "category": "leis"
+  },
+  {
+    "difficulty_level": "intermediate",
+    "question_type": "multiple_choice",
+    "question_text": "Qual mandamento proibe matar?",
+    "correct_answer": "Sexto",
+    "wrong_answers": [
+      "Quinto",
+      "Setimo",
+      "Oitavo"
+    ],
+    "explanation": "Nao matarás.",
+    "category": "leis"
   }
 ]

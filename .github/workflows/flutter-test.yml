@@ -1,0 +1,34 @@
+name: Flutter Tests & Analysis
+
+on:
+  push:
+    paths:
+      - 'bible-app-mobile/**'
+  pull_request:
+    paths:
+      - 'bible-app-mobile/**'
+
+jobs:
+  analyze-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.0'
+          channel: stable
+
+      - name: Get dependencies
+        working-directory: bible-app-mobile
+        run: flutter pub get
+
+      - name: Analyze
+        working-directory: bible-app-mobile
+        run: flutter analyze --no-fatal-infos
+
+      - name: Run tests
+        working-directory: bible-app-mobile
+        run: flutter test

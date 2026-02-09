@@ -25,6 +25,15 @@ final versionsProvider = FutureProvider<List<BibleVersion>>((ref) {
 });
 
 final selectedVersionProvider = StateProvider<String>((ref) => 'NVI');
+/// Version ID for the currently selected version (for API calls that need version_id).
+final selectedVersionIdProvider = Provider<int>((ref) {
+  final code = ref.watch(selectedVersionProvider);
+  final versions = ref.watch(versionsProvider).valueOrNull ?? [];
+  for (final v in versions) {
+    if (v.code == code) return v.id;
+  }
+  return versions.isNotEmpty ? versions.first.id : 1;
+});
 final selectedBookProvider = StateProvider<int>((ref) => 1);
 final selectedChapterProvider = StateProvider<int>((ref) => 1);
 
@@ -47,4 +56,16 @@ final searchResultsProvider = FutureProvider<List<Verse>>((ref) {
 /// List of version codes available offline (for settings/UI).
 final downloadedVersionsProvider = FutureProvider<List<String>>((ref) {
   return ref.read(offlineServiceProvider).getDownloadedVersionCodes();
+});
+
+/// Verse of the day from the backend API.
+final verseOfTheDayProvider = FutureProvider<Verse?>((ref) async {
+  try {
+    final api = ref.read(apiServiceProvider);
+    final version = ref.watch(selectedVersionProvider);
+    final res = await api.get('/bible/verse-of-the-day', params: {'version': version});
+    return Verse.fromJson(res.data as Map<String, dynamic>);
+  } catch (_) {
+    return null;
+  }
 });

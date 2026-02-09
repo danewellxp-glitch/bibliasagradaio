@@ -111,6 +111,14 @@ class ProfileScreen extends ConsumerWidget {
               trailing: const Icon(Icons.chevron_right),
               onTap: () => context.push('/profile/offline'),
             ),
+            ListTile(
+              leading: const Icon(Icons.workspace_premium,
+                  color: Color(0xFFD4AF37)),
+              title: const Text('Premium'),
+              subtitle: const Text('Desbloqueie todas as ferramentas'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => context.push('/profile/premium'),
+            ),
             const Divider(),
             ListTile(
               leading: const Icon(Icons.logout),
