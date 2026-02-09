@@ -34,8 +34,7 @@ class BibleApp extends ConsumerStatefulWidget {
 
 class _BibleAppState extends ConsumerState<BibleApp> {
   @override
-  void initState() {
-    super.initState();
+  Widget build(BuildContext context) {
     // Sync user content when auth state changes to logged-in
     ref.listen(authStateProvider, (previous, next) {
       final wasLoggedOut = previous?.value == null;
@@ -44,10 +43,6 @@ class _BibleAppState extends ConsumerState<BibleApp> {
         ref.read(syncServiceProvider).syncOnAppStart();
       }
     });
-  }
-
-  @override
-  Widget build(BuildContext context) {
     final onboardingDone = ref.watch(onboardingCompleteProvider);
 
     if (!onboardingDone) {
